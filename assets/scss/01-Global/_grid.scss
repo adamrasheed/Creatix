@@ -32,6 +32,10 @@
             margin-bottom: 6rem;
         }
     }
+
+	&--center{
+		justify-content: center;
+	}
 }
 
 .lrg, .med, .sml, .x-sml {padding: 0 1rem;}

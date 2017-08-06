@@ -209,6 +209,9 @@ figcaption {
     .row--spaced {
       margin-bottom: 6rem; } }
 
+.row--center {
+  justify-content: center; }
+
 .lrg, .med, .sml, .x-sml {
   padding: 0 1rem; }
 
@@ -1356,6 +1359,7 @@ section {
   .section-about__container {
     padding: 0 1rem;
     display: flex;
+    justify-content: center;
     flex-flow: row nowrap;
     align-items: flex-start; }
   .section-about__title {

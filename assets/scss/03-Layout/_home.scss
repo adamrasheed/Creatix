@@ -5,6 +5,7 @@
     &__container{
         padding: 0 1rem;
         display: flex;
+        justify-content: center;
         flex-flow: row nowrap;
         align-items: flex-start;
     }

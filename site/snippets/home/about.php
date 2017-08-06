@@ -1,5 +1,5 @@
 <div class="row row--center">
-    <div class="section-about__container sml med--col-6 med--offset-1 lrg--col-8">
+    <div class="section-about__container sml med--col-6 lrg--col-8">
     <?php if($pic = image('headshot.jpg')->url()): ?>
         <div class="section-about__img-container">
             <img src="<?php echo $pic ?>" alt="Adam Rasheed" class="section-about__img">
