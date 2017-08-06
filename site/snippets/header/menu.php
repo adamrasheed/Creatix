@@ -5,7 +5,7 @@
     <?php foreach($pages->visible() as $p): ?>
 
         <li class="nav-item">
-            <a class="nav-link" <?php e($p->isOpen(), ' class="nav-link--active"') ?> href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
+            <a class="nav-link<?php e($p->isOpen(), ' nav-link--active') ?>" href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
         </li>
 
     <?php endforeach ?>

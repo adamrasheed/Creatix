@@ -28,15 +28,17 @@
         height: 1px;
         background: $light-text;
         width: calc(100% - 2rem);
-        margin: 0 1rem;
-        margin-bottom: 1rem;  
+        margin: 1rem;
+    }
+
+    &--bottom{
+        margin-top: auto;
+        margin-bottom: 0;
     }
 
     &__list{
-        &--bottom{
-            margin-top: auto;
-            margin-bottom: 0;
-        }
+        margin-bottom: 0;
+        
     }
     &__item{
         font-family: $headings;
@@ -47,12 +49,22 @@
         display: block;
         text-decoration: none;
         padding: 1rem;
+        line-height: 1;
         width: 100%;
         transition: map-get($transition, short);
 
         &:hover, &:focus{
             background: $text;
             color: white;
+        }
+
+        &--active{
+            &:after{
+                content: '';
+                padding: 0 1px;
+                background: $primary;
+                margin-left: .25rem;
+            }
         }
     }
 }

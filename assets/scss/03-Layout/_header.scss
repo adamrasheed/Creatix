@@ -127,6 +127,9 @@
         background: white !important;
         color: $text !important;
     }
+
+    &--active{
+    }
 }
 
 @media #{$lrg} {
@@ -166,7 +169,22 @@
         text-decoration: none;
         transition: map-get($transition, short);
 
-        &:after {visibility: hidden}
+        // &:after {visibility: hidden}
+
+        &--active{
+            &:after{
+                content: '';
+                display: block;
+                background: $text;
+                padding: 1px 0;
+                margin-top: .25rem;
+            }
+
+            &:hover:after{
+                background: lighten($text, 20%);
+            }
+        }
+
         &:hover, &:focus {
             background: none;
             color: lighten($text, 20%) !important;
