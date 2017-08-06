@@ -1076,6 +1076,13 @@ article img {
     text-transform: uppercase;
     letter-spacing: .05em;
     margin-bottom: 0.5rem; }
+    .nextprev__next:after, .nextprev__prev:after {
+      content: '';
+      display: block;
+      padding: .125rem 0;
+      margin: .5rem 0;
+      background-color: #80D0C7;
+      background-image: linear-gradient(225deg, #80D0C7 0%, #0093E9 99%); }
   .nextprev__prev {
     text-align: right; }
   .nextprev__title {
@@ -1178,7 +1185,7 @@ section {
     right: 0;
     background: white;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    z-index: 3;
+    z-index: 999;
     transform: translateY(-110%); }
     .header--sticky .hero #Logo-Black {
       fill: #333333 !important; }
@@ -1194,7 +1201,7 @@ section {
       .header--sticky .nav-link {
         color: #333333 !important; } }
 
-.header--sticky .sticky {
+.is-sticky {
   transform: translateY(0); }
 
 #site-logo {

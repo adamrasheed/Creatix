@@ -23,9 +23,9 @@
 document.addEventListener("DOMContentLoaded", function() {
 
     const body = document.body;
-    const stickyTrigger = 480;
+    const stickyTrigger = 560;
 
-    const stickyHeader = document.querySelector('#headerSticky');
+    const stickyHeader = document.querySelector('.header--sticky');
     const isSticky = "is-sticky";
 
     function scrollNav(){
@@ -33,15 +33,18 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function stickyNav(){
-        if (window.scrollY > 480) {
+        if (window.scrollY > stickyTrigger) {
+            console.log('should be sticky!');
+            stickyHeader.classList.add(isSticky);
             // stickyHeader.classList.add("stickkky");
         } else {
             // stickyHeader.classList.toggle(isSticky);
+            stickyHeader.classList.remove(isSticky);
         }
     }
 
     window.addEventListener('scroll', stickyNav);
-    body.classList.add('Working!');
+    // body.className('Working!');
 
     console.log('yo');
-});
+}, false);

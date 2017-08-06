@@ -1,2 +1,1 @@
-"use strict";document.addEventListener("DOMContentLoaded",function(){function o(){console.log(window.scrollY)}function n(){window.scrollY}var e=document.body,t=480,c=document.querySelector("#headerSticky"),d="is-sticky";window.addEventListener("scroll",n),e.classList.add("Working!"),console.log("yo")});
-//# sourceMappingURL=./main-min.js.map
+"use strict";document.addEventListener("DOMContentLoaded",function(){function o(){console.log(window.scrollY)}function e(){window.scrollY>s?(console.log("should be sticky!"),t.classList.add(c)):t.classList.remove(c)}var n=document.body,s=560,t=document.querySelector(".header--sticky"),c="is-sticky";window.addEventListener("scroll",e),console.log("yo")},!1);

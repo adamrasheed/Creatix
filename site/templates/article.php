@@ -20,8 +20,9 @@
 
           <a href="http://www.facebook.com/sharer.php?u=<?php echo rawurlencode ($page->url()); ?>" target="blank" title="Share on Facebook" class="article__share-link article__share-link--fb"><i class="fa fa-facebook"></i> Share on Facebook</a>
 
-            <a href="https://twitter.com/intent/tweet?source=webclient&text=<?php echo rawurlencode($page->title()); ?>%20<?php echo rawurlencode($page->url()); ?>%20<?php echo ('via @your_account')?>" target="blank" title="Tweet this" class="article__share-link article__share-link--twt"><i class="fa fa-twitter"></i> Tweet</a>
+          <a href="https://twitter.com/intent/tweet?source=webclient&text=<?php echo rawurlencode($page->title()); ?>%20<?php echo rawurlencode($page->url()); ?>%20<?php echo ('via @your_account')?>" target="blank" title="Tweet this" class="article__share-link article__share-link--twt"><i class="fa fa-twitter"></i> Tweet</a>
 
+          
           </div>
         </header>
         

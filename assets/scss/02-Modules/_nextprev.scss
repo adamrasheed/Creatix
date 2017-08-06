@@ -22,6 +22,14 @@
         text-transform: uppercase;
         letter-spacing: .05em;
         margin-bottom: 0.5rem;
+
+        &:after{
+            content: '';
+            display: block;
+            padding: .125rem 0;
+            margin: .5rem 0;
+            @include btn-grad($secondary, $secondary2);
+        }
     }
 
     &__prev{

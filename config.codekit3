@@ -8648,7 +8648,7 @@
 		},
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
-	"esLintEnvironmentsMask": 1,
+	"esLintEnvironmentsMask": 17,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
@@ -8935,7 +8935,7 @@
 			"optionString": "{'allowParens': false}"
 			},
 		"no-console": {
-			"active": 1,
+			"active": 0,
 			"optionString": "{'allow': ['warn', 'error']}"
 			},
 		"no-const-assign": {
@@ -9932,7 +9932,7 @@
 			"flagValue": -1
 			},
 		"es6": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"eval": {
