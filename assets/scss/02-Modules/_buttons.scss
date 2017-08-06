@@ -24,11 +24,12 @@
     }
     
     &--primary {
-        background: $btn-primary;
+        // background: $btn-primary;
+        @include btn-grad($primary, $primary2);
         -webkit-appearance: none;
-        box-shadow: 0 4px 0 darken($btn-primary, 15%);
+        box-shadow: 0 4px 0 darken($primary2, 15%);
         &:hover, &:focus {
-            box-shadow: 0 2px 0 darken($btn-primary, 15%);
+            box-shadow: 0 2px 0 darken($primary2, 15%);
         }
     }
     
@@ -40,11 +41,11 @@
     }
     
     &--secondary {
-        background: $btn-secondary;
+        @include btn-grad($secondary, $secondary2);
         -webkit-appearance: none;
-        box-shadow: 0 4px 0 darken($btn-secondary, 15%);
+        box-shadow: 0 4px 0 darken($secondary2, 15%);
         &:hover, &:focus {
-            box-shadow: 0 2px 0 darken($btn-secondary, 15%);
+            box-shadow: 0 2px 0 darken($secondary2, 15%);
         }
     }
 }

@@ -4,21 +4,28 @@
     display: flex;
     justify-content: space-between;
 
-    &__link {
-        padding: .5rem 1rem 1rem;
-        color: white;
-        text-decoration: none;
-        flex: 0 0 48%;
-        background: $text;
-        
-    }
-    &__next, &__prev {
-        font-weight: 800;
+    .next {
+        margin-left: auto;
     }
 
-    &__next {
-        font-size: .75rem;
+    &__link {
+        color: $text;
+        text-decoration: none;
+        flex: 0 0 48%;
+    }
+
+    &__next, &__prev {
+        font-size: $font-size-extra-small;
+        font-family: $headings;
+        font-weight: 800;
         line-height: 1;
+        text-transform: uppercase;
+        letter-spacing: .05em;
+        margin-bottom: 0.5rem;
+    }
+
+    &__prev{
+        text-align: right;
     }
 
     &__title{
@@ -26,21 +33,11 @@
         margin-bottom: .25rem;
         font-family: $headings;
         letter-spacing: .05em;
+        font-family: 1rem;
     }
 
     &__desc{
         display: block;
-    }
-
-
-
-    &__img{
-        position: absolute;
-        height: auto;
-        object-fit: cover;
-        top: 0;
-        left: 0;
-        z-index: -1;
     }
 
  

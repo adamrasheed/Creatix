@@ -9,12 +9,31 @@ $testimonial-text: 'Lora',serif;
 // Colors
 $text: hsla(0, 0%, 20%, 1);
 $light-text: #9B9B9B;
-$link: #E84545;
+
 $btn-primary-gradient: linear-gradient(-180deg, #FF4C4C 0%, #E84545 100%);
 $btn-primary: #E84545;
+$primary: #FAD961;
+$primary2: #F76B1C;
 $btn-secondary: #4691E8;
+$secondary: #80D0C7;
+$secondary2: #0093E9;
+
+$link: $secondary2;
+
+
+@mixin btn-grad($color1, $color2) {
+    background-color: $color1;
+    background-image: linear-gradient(225deg, $color1 0%, $color2 99%);
+}
 
 $background-light: hsla(360, 100%, 0%, 0.04);
+
+//  Font-Size
+$font-size-base: 16px;
+$font-size-small: 0.75rem;
+$font-size-extra-small: 0.625rem;
+
+
 
 
 // Overlays

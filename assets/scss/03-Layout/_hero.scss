@@ -8,12 +8,6 @@
     background-repeat: no-repeat;
     background-position: center;
 
-    &--scrolling{
-        background-position: center;
-        @media #{$med} {background-position: center calc(-96px * 2);}
-        @media #{$lrg} {background-position: center calc(-112px * 2);}
-    }
-
 
     &__overlay {
         position: absolute;
@@ -33,6 +27,10 @@
     &__content {
         position: inherit;
         z-index: 3;
+    }
+
+    &__cta-icon{
+        margin-left: .25rem;
     }
     &__video {display: none}
 

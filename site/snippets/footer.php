@@ -50,12 +50,9 @@
     </script>
 
   <!-- Scripts -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
 
-  <!-- Retina JS -->
-  <?php echo js('assets/js/retina.min.js'); ?>
-  <?php echo js('assets/js/main.js') ?>
+  <!-- Custom JS -->
+  <?php echo js('assets/js/min/main-min.js') ?>
 
 </body>
 </html>

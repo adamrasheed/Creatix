@@ -41,8 +41,8 @@
         <?php if($prev = $page->prevVisible()): ?>
 
         <a class="prev nextprev__link" href="<?php echo $prev->url() ?>">
-            <span class="nextprev__prev">&larr; Previous:</span><br>
-            <span class="nextprev__title"><h4><?php echo $prev->title()->html() ?></h4></span>
+            <p class="nextprev__prev"><i class="fa fa-caret-left" aria-hidden="true"></i> Previous:</p>
+            <h4 class="nextprev__title"><?php echo $prev->title()->html() ?></h4>
             <span class="nextprev__desc"><?php echo $prev->description() ?></span>
         </a>
 
@@ -52,8 +52,8 @@
         <?php if($next = $page->nextVisible()): ?>
 
         <a class="next nextprev__link" href="<?php echo $next->url() ?>">
-            <span class="nextprev__next">Next:</span><br>
-            <span class="nextprev__title"><h3><?php echo $next->title()->html() ?></h3></span>
+            <p class="nextprev__next">Next <i class="fa fa-caret-right" aria-hidden="true"></i></p>
+            <h4 class="nextprev__title"><?php echo $next->title()->html() ?></h4>
             <span class="nextprev__desc"><?php echo $next->description() ?></span>
         </a>
 

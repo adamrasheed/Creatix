@@ -15,7 +15,9 @@
     <?php endif ?>
 
     <?php if($cta = $page->ctaText()): ?>
-        <a href="<?php echo $pages->find('contact')->url() ?>" class="hero__cta btn btn--primary cta"><?= $cta ?></a>
+        <a href="<?php echo $pages->find('contact')->url() ?>" class="hero__cta btn btn--primary cta">
+        <?= $cta ?><i class="fa fa-caret-right hero__cta-icon" aria-hidden="true"></i>
+        </a>
     <?php else: ?>
         <a href="<?php echo $pages->find('contact')->url() ?>" class="hero__cta btn btn--primary cta">Learn More</a>
     <?php endif ?>

@@ -1,49 +1,47 @@
-$(function(){
 
-    // Makes Hamburger Menu Work
-    $('#hamburger').click(function(){
-        $('.nav-menu').slideToggle(350);
-    });
-    
-    // Sticky Nav on Scrol
 
-    $(window).scroll(function(){
+// const body = document.body;
+// const hamburger = document.getElementById('hamburger');
+// const navMenu = document.getElementsByClassName('nav-menu');
+// // const mobMenu = document.querySelector('mob-menu');
 
-        var offsetPadding = $('.header').outerHeight(true);
-        
+// function mobMenu(){
+//     if ( body.classList.contains('menu-open')) {
+//         // body.classList.toggle('menu-open');
+//         mobMenu.classList.toggle('menu-open');
+//     } else {
+//         body.classList.toggle('menu-open');
+//         // mobMenu.classList.toggle('menu-open');
+//     }
+// };
 
-        if ($(this).scrollTop() > 480){ 
-            $('.header').addClass("header--sticky");
-            $('body').addClass('is-scrolling');
-            $('.hero').addClass('hero--scrolling');
-            $('#Logo-Black').addClass('scrolling-logo');
-        }
-        else{
-            $('.header').removeClass("header--sticky");
-            $('body').removeClass('is-scrolling');
-            $('.hero').removeClass('hero--scrolling');
-            $('#Logo-Black').removeClass('scrolling-logo')
-        }
-    });
-});
 
-const body = document.body;
-const hamburger = document.getElementById('hamburger');
-const navMenu = document.getElementsByClassName('nav-menu');
-// const mobMenu = document.querySelector('mob-menu');
+// hamburger.addEventListener('click', mobMenu);
 
-function mobMenu(){
-    if ( body.classList.contains('menu-open')) {
-        // body.classList.toggle('menu-open');
-        mobMenu.classList.toggle('menu-open');
-    } else {
-        body.classList.toggle('menu-open');
-        // mobMenu.classList.toggle('menu-open');
+
+//  Doc Ready
+document.addEventListener("DOMContentLoaded", function() {
+
+    const body = document.body;
+    const stickyTrigger = 480;
+
+    const stickyHeader = document.querySelector('#headerSticky');
+    const isSticky = "is-sticky";
+
+    function scrollNav(){
+        console.log(window.scrollY);
     }
-};
 
-hamburger.addEventListener('click', mobMenu);
+    function stickyNav(){
+        if (window.scrollY > 480) {
+            // stickyHeader.classList.add("stickkky");
+        } else {
+            // stickyHeader.classList.toggle(isSticky);
+        }
+    }
 
+    window.addEventListener('scroll', stickyNav);
+    body.classList.add('Working!');
 
-
-const headerHeight = document.querySelector('.header');
+    console.log('yo');
+});
