@@ -1,0 +1,50 @@
+// Buttons
+
+.btn {
+    font-family: $btn-text;
+    font-size: 1rem;
+    font-weight: 700;
+    //text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    background: $text;
+    -webkit-appearance: none;
+    text-decoration: none;
+    line-height: 1;
+    letter-spacing: .05em;
+    padding: 1.25rem 1rem 1.25rem;
+    margin: 0 0 1rem;
+    transform: translateY(-4px);
+    transition: map-get($transition, short);
+    &:hover, &:focus {
+        outline: none;
+        transform: translateY(-2px);
+    }
+    
+    &--primary {
+        background: $btn-primary;
+        -webkit-appearance: none;
+        box-shadow: 0 4px 0 darken($btn-primary, 15%);
+        &:hover, &:focus {
+            box-shadow: 0 2px 0 darken($btn-primary, 15%);
+        }
+    }
+    
+    &--primary-gradient {
+        @extend .btn--primary;
+        -webkit-appearance: none;
+        background-image: $btn-primary-gradient;
+        letter-spacing: .1em;
+    }
+    
+    &--secondary {
+        background: $btn-secondary;
+        -webkit-appearance: none;
+        box-shadow: 0 4px 0 darken($btn-secondary, 15%);
+        &:hover, &:focus {
+            box-shadow: 0 2px 0 darken($btn-secondary, 15%);
+        }
+    }
+}

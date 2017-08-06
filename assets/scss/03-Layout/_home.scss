@@ -1,0 +1,36 @@
+.section-about {
+    padding: 0;
+    &__title {
+        margin: 0 0 1rem;
+    }
+    &__image {
+        margin-bottom: 1.3em;
+    }
+}
+
+.content-container{
+    &--padding {
+        padding: 0 1rem;
+    }
+    
+}
+
+.section-case-studies {
+    margin-bottom: 6rem !important;
+}
+
+.section-testimonial {
+    @extend .section-margin;
+}
+
+.section-blog {
+    &__title {flex: 100%}
+}
+
+@media #{$lrg} {
+    .content-container {
+        max-width: $container-width;
+        margin: 0 auto;
+        margin-bottom: map-get($section-margin, lrg);
+    }
+}

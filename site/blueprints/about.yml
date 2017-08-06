@@ -1,0 +1,76 @@
+title: About
+template: about
+pages: false
+icon: user
+
+fields:
+    title:
+        label: Title
+        type: text
+        
+    description:
+        label: Description
+        type: textarea
+        
+    clients:
+        label: Clients
+        type: list
+        placeholder: Name a Client
+        width: 1/2
+        
+    featured:
+        label: Featured In
+        type: list
+        placeholder: A Place Where You Were Featured In
+        width: 1/2
+        
+    wwmTitle:
+        label: Work with me Title
+        type: text
+        
+    wwmSubtitle:
+        label: WWM Subtitle
+        type: text
+        
+    wwmImg:
+        label: WWM Image
+        type: image
+        
+    wwmText:
+        label: Work with me Text
+        type: textarea
+        
+    testimonial:
+        label: Testimonial
+        type: textarea
+        icon: quote-left
+        
+    testimoinalImage:
+        label: Client Image
+        type: image
+        icon: image
+        width: 1/2
+        
+    testimonialName:
+        label: Testimonial Name
+        type: text
+        icon: user
+        width: 1/2
+        
+    testimonialLink:
+        label: Testimonial Link
+        type: text
+        icon: link
+        width: 1/2
+        
+    testimonialSite:
+        label: Testimonial Site
+        type: text
+        icon: link
+        width: 1/2
+
+        
+    aboutSite:
+        label: About This Site
+        type: textarea
+        

@@ -1,0 +1,24 @@
+title: Roadmapping Session
+
+icon: line-chart
+pages: false
+
+fields:
+  title:
+    label: Title
+    type: text
+  text:
+    label: Text
+    type: textarea
+
+  cta_title:
+    label: CTA title
+    type: text
+
+  cta_info:
+    info: CTA info
+    type: textarea
+
+  cta:
+    label: cta
+    type: text

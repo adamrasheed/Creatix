@@ -1,0 +1,35 @@
+title: Testimonial
+
+pages: false
+
+fields:
+
+  title: 
+    label: Title
+    type: text
+    icon: user-circle
+    info: This is where you should put the name of the client that gave you the testimonial
+
+  img:
+    label: Testimonial Image
+    type: image
+    icon: user-circle
+    width: 1/3
+
+
+  link:
+    label: Testimonial Website Link 
+    type: url
+    icon: link
+    width: 1/3
+
+  site:
+    label: Testimonial Site 
+    type: text
+    icon: link
+    width: 1/3
+
+ body:
+    label: Testimonial Body
+    icon: align-left
+    type: textarea

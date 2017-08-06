@@ -1,0 +1,10 @@
+// Section
+section {
+    margin-bottom: map-get($section-margin, sml);
+    @media #{$med} {
+        margin-bottom: map-get($section-margin, med);
+    }
+    @media #{$lrg} {
+        margin-bottom: map-get($section-margin, lrg);
+    }
+}

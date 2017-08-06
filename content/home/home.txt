@@ -1,0 +1,37 @@
+Title: Home
+
+----
+
+Intro: 
+
+----
+
+Text: yo, this is sick.
+
+----
+
+Seotitle: Orange County Web Designer
+
+----
+
+Description: 
+
+----
+
+Seodescription: 
+
+----
+
+Herobackground: hero-background.jpg
+
+----
+
+Headline: Get More Customers for Your Business
+
+----
+
+Subheadline: Custom Websites for Your Small Business
+
+----
+
+Ctatext: Start a Web Design Project

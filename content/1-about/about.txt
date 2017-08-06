@@ -1,0 +1,130 @@
+Title: About
+
+----
+
+Text: hi there
+
+----
+
+Description: 
+
+### I design websites that make you more money.
+
+Hi, I'm Adam Rasheed, a UI/UX/Web designer and Front-end Developer. In a nutshell, I can design your website, and then code it up so it works on phones, tablets, and computers across the world. I make sure to create aesthetically kickass designs and clean, scalable code, but what I really pride myself in is designing your projects around your business goals to make sure you get a return on your investment with me.
+
+(link: contact text: Start Your Project Today!)
+
+----
+
+Clients: 
+
+- Corona City Chamber of Commerce
+- Aaron Valenty Luxury Realty
+- ePublishing, Inc.
+- Sitepoint
+
+----
+
+Featured: 
+
+- '(link: https://www.sitepoint.com/premium/courses/user-interface-design-with-sketch-3-2927# text:SitePoint Premium)'
+- '(link: http://bit.ly/SketchVids text:Sketch Vids)'
+- '(link: http://www.unofficialshopifypodcast.com/episodes/12844-winning-product-photography-with-adam-rasheed-pt-1 text: Unofficial Shopify Podcast)'
+
+----
+
+Workwithmetitle: Why Working with Me is Awesome-Sauce*
+
+----
+
+Workwithmesubtitle: Other than the fact that I use words like Awesome-sauce.
+
+----
+
+Workwithmeimg: 
+
+----
+
+Workwithmetext: 
+
+#### Business like Yours Trust Me to Level Up Their Online Presence
+Pitchfork seitan chillwave before they sold out, actually listicle +1 tacos heirloom.  Heirloom twee craft beer, chicharrones biodiesel asymmetrical fashion axe keffiyeh waistcoat.  Man bun williamsburg ennui mixtape, hella kickstarter neutra seitan microdosing hashtag.  Ethical forage salvia, hoodie tousled brooklyn selfies keytar.  Hoodie ugh ennui humblebrag.  Tacos helvetica yr small batch, hella master cleanse YOLO flannel irony ugh aesthetic.  Knausgaard ramps offal four loko viral fanny pack yr hella waistcoat meh beard, wolf messenger bag.
+
+#### No Hourly Billing
+
+Have a question? Ask away, it won’t show up on your invoice. Promise. I have flat-rate fees specific to every project, and for the duration of  your project, you’re welcome to email and call whenever during office hours. 
+
+#### Your Business Goals are Priority Numero Uno
+
+You get more than a just pretty-looking website. Your new project will be a full-fledged hub of all your online marketing efforts, while will bring your customers to your site. It’s the sites job to turn those visitors into paying customers and clients.
+
+#### No Corporate Jargon. Just One Incredibly Handsome guy in a Home Office.
+
+There’s no bureaucracy, no Mad-Men-esque steak dinners and cocktails billed at your expense. I provide a professional service from my home office in Corona, CA. Most of my clients aren’t actually even in my state. I just wrapped a project for a client Arkansas, all while in the comfort of my home. I have an incredible client web design process that let’s me take up to three clients at any time, and if I’m full I’ll happily schedule to work on your project up next. 
+
+Weekly Check-ins to Make Sure Your Project is a Success.
+
+Instead of going MIA, I’ll make sure, to the point of annoyance, to check in with you every week to update you on my progress, make sure we’re all on track with everything, and make sure that we’re handling any bumps along the way.
+
+----
+
+Aboutsite: 
+
+Made with Kirby CMS. (link: http://learnkirby.xyz text: Learn Kirby here popup: yes).
+
+Special thanks to: Rob Davarnia, Peter Deltondo, Clark Dinnison, Ian Cox, and  Anton Sten for the invaluable feedback and help throughout this redesign.
+
+----
+
+Wwmtitle: Why Working with Me is Awesome-Sauce*
+
+----
+
+Wwmsubtitle: *Besides the fact that I use words like Awesome-sauce
+
+----
+
+Wwmimg: photo-1472647077244-23bed45e50d9.jpg
+
+----
+
+Wwmtext: 
+
+#### Business like Yours Trust Me to Level Up Their Online Presence
+
+#### No Hourly Billing
+
+
+#### Your Business Goals are Priority Numero Uno - Focus on Your Goals
+
+#### Weekly Check-ins to Make Sure your Project is a Success
+
+----
+
+Testimonial: 
+
+Adam was instrumental in taking my business to the next level. He developed an amazing website and took care of all the details.
+
+I was really impressed with the quality of the photos, as well as the video he produced. I proudly pass Adam's information along, knowing I can vouch for his work without hesitation. The best part about Adam's style is his flexibility.
+
+My schedule is really crazy and unpredictable, yet Adam found a way to work around my schedule. He is professional, caring, and pays close attention to detail. Not to mention, he would get a hold of me whenever he had a question. He was very accessible and communicated everything he did.
+
+----
+
+Testimoinalimg: raid-sara-la-buena-market.jpg
+
+----
+
+Testimoniallink: 
+
+----
+
+Testimonialname: Raid Sara
+
+----
+
+Testimonialsite: La Buena Market
+
+----
+
+Testimoinalimage: raid-sara-la-buena-market.jpg

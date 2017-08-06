@@ -1,0 +1,43 @@
+Title: Aaron Valenty
+
+----
+
+Testimonial-site-link: http://aaronvalenty.com
+
+----
+
+Testimonial-site: aaronvalenty.com
+
+----
+
+Testimnial-body: Working with Adam was a delight!  I had the basic idea of what I wanted to accomplish and Adam masterfully made that a reality.  **My ultimate goal was to use my website as a lead generation revenue center** and Adam made that possible with a very easy to use (from the user standpoint, as well as the back-end) product.  Communication was essential and Adam had very valuable suggestions on the best course of action.  I would definitely refer him to my family, friends and colleagues.
+
+----
+
+Image: aaron-valenty-headshot-v2.jpg
+
+----
+
+Site-link: http://aaronvalenty.com/
+
+----
+
+Site: aaronvalenty.com
+
+----
+
+Body: 
+
+Working with Adam was a delight!  I had the basic idea of what I wanted to accomplish and Adam masterfully made that a reality. 
+
+**My ultimate goal was to use my website as a lead generation revenue center and Adam made that possible with a very easy to use product.** 
+
+Communication was essential and Adam had very valuable suggestions on the best course of action.  I would definitely refer him to my family, friends and colleagues.
+
+----
+
+Img: 
+
+----
+
+Link: http://aaronvalenty.com/

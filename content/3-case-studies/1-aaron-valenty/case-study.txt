@@ -1,0 +1,92 @@
+Title: Aaron Valenty
+
+----
+
+Intro: 
+
+----
+
+Text: 
+
+## Luxury Realtor in Orange County
+Aaron Valenty, a luxury Realtor in Orange County, California, approached me to create a website for his recent marketing campaign for a neighbor in Orange County for Crystal Cove.
+
+He wanted something that not only looked great, but also helped him get leads that were looking to sell or buy their home.
+
+## A Lean, Mean, Lead Generating Machine
+
+After some discovery about his project, we determined that we should offer something of value to his visitors, in this case, we put up a “Whats My Home Worth?” Area dead center in front of the website to make sure we’re maximizing conversions.
+
+(image: aaron-valenty-site-hero.png alt: Aaron Valenty Website caption: A clear CTA that easyily gets visitors to convert)
+
+## Real-Time Listing Updates
+Being a realtor, Aaron also had to work with real estate listings using his MLS system. To save him time, I used IDXbroker to reflect his listings on his site without him having to update anything himself.
+
+## Easy to Use Admin Panel
+While Aaron is pretty tech-savvy, dealing with code is not something he wanted to do, nor did he want to bug me for every tiny update. For this reason, I used the design I made to create  custom Wordpress theme where Aaron could easily login himself and make any changes he needed.
+
+## The Process 
+This project involved a lot of planning upfront, sketching things out, designing them, and coding them up, and finally, testing everything to make sure it worked on everything form the latest iMac to a slow android from 2009.
+
+### Wireframing
+(image: Aaron-Valenty-Wireframes.png alt: web design wireframes caption: wireframes I created for aaronvalenty.com)
+
+### Style Guide
+Creating a style guide allowed me to explore ideas on fonts colors, and different components of the future site. This allowed helped me incorporate colors from the real estate brokerage Aaron worked with.
+
+(image: Aaron-Valenty-Style-Guide.png alt: web design wireframes caption: wireframes I created for aaronvalenty.com)
+
+### Development
+I started by creating a local static front-end of the site using HMTL,CSS, and jQuery. Then, I used that front-end to create a custom Wordpress theme using best development practices to make sure the code was organized and clean. This resulted in two things: being able to go into it in the future and easily make changes, and the site would load fast, which is great for SEO.
+
+## The End Result
+In the end, I was able to design a custom Wordpress theme that not only showcased what Aaron's listings, but acted as a lead-generating machine. Within a couple of weeks of launching, Aaron had already received a lead for a multi-million dollar listing!
+(image: aaron-valenty-email.png class: img--shadow)
+
+----
+
+Seoimg: aaron-valenty-website.jpg
+
+----
+
+Categories: Web Design, Custom Wordpress Theme, Wordpress Development
+
+----
+
+Description: Custom Wordpress Website for Luxury Realtor in Orange County
+
+----
+
+Website: 
+
+----
+
+Websitelink: 
+
+----
+
+Featuredimg: 
+
+----
+
+Paragraph1: Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+
+----
+
+Imageui: 
+
+----
+
+Content: 
+
+Etiam porta sem malesuada magna mollis euismod. Nullam quis risus eget urna mollis ornare vel eu leo. Curabitur blandit tempus porttitor. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+
+Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum. Donec sed odio dui.
+
+----
+
+Image2: 
+
+----
+
+Img: Aaron-Valenty-featured.png

@@ -1,0 +1,78 @@
+Title: AMLA
+
+----
+
+Intro: 
+
+----
+
+Text: 
+
+## Providing Legal Aid to Immigrants
+I was approached by The Ahmadiyya Muslim Lawyers Association (AMLA), a nonprofit affiliated with my mosque, in late 2016 to create a website that helped them showcase their humanitarian efforts, increase member signups, and create awareness about the nonprofit to Muslim immigrants that could benefit from their help.
+
+## Designing Around Project Goals
+Des
+### Easy to Use
+Wanted an experience that focused on connecting people to attorneys that could help them. Didn’t want the fluff of typical non-profit websites.
+
+## Designing for Two Types of Users
+
+### Encouraging Attorneys to Join AMLA
+Half of the reason do design this website was to allow for easy member registration. Attorneys that want to join AMLA would simply fill out basic info, and someone from AMLA would follow up with them to get more info and complete their registration.
+(image: AMLA-Registration.png alt: AMLA mobile user registration caption: Mobile registration form)
+
+#### Member Spotlights
+(image: AMLA-Member-Spotlight.png alt: AMLA Member Spotlight caption: Member Spotlight to showcase members)
+
+#### Member Directory
+(image: AMLA-directory.png alt: AMLA member directory caption: The starting member directory class:img--shadow)
+
+#### Events
+(image: AMLA-Events.png alt: AMLA events)
+
+### Giving Immigrants Access to Legal Aid
+
+#### Blog
+(image: AMLA-Blog.png alt: AMLA blog)
+
+## Designing the Site
+After gathering some other info, I set off to 
+
+### Style Guide
+(image: AMLA-Style-Guide.png alt: AMLA website style guide caption: Style Guide for AMLA class:img--shadow)
+## Wordpress Development
+Using 
+### Easy-to-Use Admin Control
+
+
+## Overcoming Challenges
+### Everyone had a full-time Job
+This nonprofit is special in the sense that its entirely volunteer-based, and all the volunteers, including the board members, had full-time jobs. This delayed our progress a bit, but I knew this from the start, and set deadlines accordingly and take charge of project management.
+
+### Chain of Command
+My main point of contact for this project was the executive secretary, who reported to the entire board.
+
+### Budget
+Being a Muslim immigrant myself, this was a project I’m passionate about, and was happy to work with the budget they had, but this also meant we couldn’t afford certain design assets like premium fonts, and SSD hosting for quick-loading. Regardless, I worked within our bounds, and the project was a success.
+
+## End Result
+The end result was a great looking and functioning site that helps AMLA get more members to join and muslim immigrants to get the legal aid they need.
+
+Check out the live site at: (link: http://www.amlausa.org/ text: amlausa.org target:_blank).
+
+----
+
+Img: AMLA-featured-Image.png
+
+----
+
+Seoimg: 
+
+----
+
+Categories: Web Design, Custom Wordpress Theme
+
+----
+
+Description: Helping Muslim Immigrants Find Legal Aid

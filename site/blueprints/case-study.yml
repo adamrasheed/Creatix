@@ -1,0 +1,46 @@
+title: Case Study
+pages: false
+
+files:
+    sortable: true
+    
+fields:
+    title:
+        label: Title
+        type: title
+
+    img:
+        label: Featured image
+        type: image
+        width: 1/2
+        help: Use a 2:1 panorama format
+        
+    seoimg:
+        label: SEO image
+        type: image
+        width: 1/2
+        help: use a 2:3 photo format
+    
+    categories:
+        label: Categories
+        type: checkboxes
+        icon: tags
+        options:
+            Online Marketing: Online marketing
+            Photography: Photography
+            Videography: Videography
+            Web Design: Web design
+            Web Development: Web Development
+            Custom Wordpress Theme: Custom Wordpress Theme
+            Wordpress Development: Wordpress Development
+    
+    description:
+        label: Description
+        type: text
+        icon: text
+        
+    text:
+        label: Text
+        type: textarea
+        icon: paragraph
+        

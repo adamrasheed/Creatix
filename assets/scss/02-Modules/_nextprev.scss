@@ -1,0 +1,59 @@
+.nextprev {
+    margin-bottom: 2rem;
+    flex: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    &__link {
+        padding: .5rem 1rem 1rem;
+        color: white;
+        text-decoration: none;
+        flex: 0 0 48%;
+        background: $text;
+        
+    }
+    &__next, &__prev {
+        font-weight: 800;
+    }
+
+    &__next {
+        font-size: .75rem;
+        line-height: 1;
+    }
+
+    &__title{
+        display: block;
+        margin-bottom: .25rem;
+        font-family: $headings;
+        letter-spacing: .05em;
+    }
+
+    &__desc{
+        display: block;
+    }
+
+
+
+    &__img{
+        position: absolute;
+        height: auto;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+ 
+
+    &--case-study{
+        @media #{$med} {
+            margin-bottom: 4rem;
+        }
+    }
+
+    &--only-next{
+        justify-content: flex-end;
+    }
+
+
+}

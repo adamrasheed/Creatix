@@ -1,0 +1,15 @@
+title: Case Studies
+
+icon: files-o
+
+pages:
+    template: case-study
+
+fields:
+    title:
+        label: Title
+        type:  text
+
+    cta:
+        label: Call to Action
+        type: text

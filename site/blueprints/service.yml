@@ -1,0 +1,28 @@
+title: Service
+pages: false
+files:
+    sortable: true
+
+
+fields:
+    
+    title:
+        label: Title
+        type:  text
+
+    image:
+        label: Featured Image
+        type: image
+        icon: picture-o
+        width: 1/2
+
+    description:
+        label: Description
+        type: textarea
+        icon: paragraph
+        width: 1/2
+
+    text:
+        label: Text
+        type:  textarea
+        icon: paragraph

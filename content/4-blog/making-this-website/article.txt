@@ -1,0 +1,67 @@
+Title: Making This Website
+
+----
+
+Date: 2016-10-01
+
+----
+
+Author: adamrasheed
+
+----
+
+Coverimage: macbook-website.jpg
+
+----
+
+Category: 
+
+----
+
+Text: 
+
+I recently redesigned this website. Right now, you’re reading this on a blog that wasn’t there before, in a 
+
+## The Problems with my Old Website
+While my site was well-designed and I got compliments on it, there were a few problems with it.
+
+### Old site wasn’t bringing me Clients
+
+### Difficult to make updates
+My old site was static site. Had to ftp everything. No way to dynamically change content. I had been creating custom CMS-based websites for my clients yet I didn’t have one.
+
+### It wasn’t developed Correctly
+It worked fine for a one-page site, but this new site was going be much larger in scale and included, multiple case studies, blog articless a resource page, and much more. For something this size, I needed to have organized, scalable code.
+
+## It Didn't Meet My Business goals
+Like all of the websites I create for my clients, this site is meant to be more than a pretty-looking page. It’s designed from the ground up to deliver results. It’s supposed to be a tool that allows me to display my work and show my prospective clients how I can benefit them.
+
+### I need to Educate my clients
+
+### Provide a hub of my marketing efforts
+
+### Be a dependable Source of high-quality information
+
+### Showcase my client work
+Notice how this isn’t the most important thing I want to display on my site.
+
+## The Design
+I aimed to have solid, clean design that didn’t distract from the content.
+
+### Sketched it out
+Pencil and Paper. This process if perhaps the most important because it throws things like colors, fonts, and other visual details out the window and focuses on what matters most: content and layout. Content is WHY your visitors go to your site and layout helps organize that content.
+
+### UI Design
+Once I have a wireframes laid in place, I focus on the actual design. This involved deciding on a color scheme, fonts sizes, and the types of details I’d be using.I used a program called sketch, which I’m quite well-versed at.
+### Photography
+Since I also do professional photography, I had no choice to have a full-blown shoot for this project.
+
+## The Development
+### CMS 
+I wanted at allow something
+### Kirby
+While I normally work in Wordpress, I wanted to use Kirby for a few reasons.
+
+
+## Conclusion
+I’ll always love my original website, but I’m really happy with the result. I treated this like a client-project.

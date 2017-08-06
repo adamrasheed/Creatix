@@ -1,0 +1,91 @@
+title: Site
+
+pages: default
+
+fields:
+  title:
+    label: Title
+    type:  text
+    width: 1/2
+
+  # SEO stuff
+  description:
+      label: Description
+      type: text
+      icon: font
+      
+  seodescription:
+      label: SEO description
+      type: text
+      help: Fallback to "Description" if not used
+      icon: search
+      validate:
+          max: 155
+          
+  seoimg:
+      label: SEO Image
+      type: image
+      required: true
+      help: This is used as the default meta og:image 
+  
+  # Site Author
+  author:
+      label: Author
+      type:  text
+      width: 1/2
+      icon: user
+      width: 1/4
+      
+  authorImg:
+      label: Author Headshot
+      type: image
+      width: 1/2
+      icon: picture-o
+      width: 1/4
+      
+  authorEmail:
+      label: Email Address
+      type: email
+      width: 1/2
+      icon: envelope
+      
+  authorPhone:
+      label: Phone Number
+      type: text
+      width: 1/2
+      icon: phone
+  
+  # Social Media Links
+  socialFacebook:
+      label: Facebook
+      type: text
+      icon: facebook
+      width: 1/4
+      
+  socialTwitter:
+      label: Twitter
+      type: text
+      icon: twitter
+      width: 1/4
+      
+  socialLinkedin:
+      label: LinkedIn
+      type: text
+      icon: linkedin
+      width: 1/4
+      
+  socialInstagram:
+      label: Instagram
+      type: text
+      icon: instagram
+      width: 1/4
+      
+  socialDribbble:
+      label: Dribbble
+      type: text
+      icon: dribbble
+      width: 1/4
+  
+  copyright:
+      label: Copyright
+      type:  text

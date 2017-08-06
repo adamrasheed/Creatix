@@ -1,0 +1,50 @@
+title: Home
+
+pages: false
+
+icon: home
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  seotitle:
+        label: SEO title
+        type: text
+        icon: search
+        width: 1/2
+        help: Fallback to default title if not used
+
+  headline:
+      label: Headline
+      type: text
+
+  subheadline:
+      label: Sub Heading
+      type: text
+      icon: text
+
+  ctaText:
+      label: CTA Button Text
+      type: text
+      width: 1/3
+        
+  description:
+      label: Description
+      type: text
+      icon: font
+      
+  seodescription:
+      label: SEO description
+      type: text
+      help: Fallback to "Description" if not used
+      icon: search
+      validate:
+          max: 155
+
+  heroBackground:
+      label: Background Image
+      type: image
+      help: Upload a background image
+      icon: picture-o

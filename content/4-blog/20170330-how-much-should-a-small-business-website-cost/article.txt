@@ -1,0 +1,122 @@
+Title: How Much Should a Small Business Website Cost?
+
+----
+
+Date: 2017-03-30
+
+----
+
+Coverimage: website-cost.jpg
+
+----
+
+Category: marketing
+
+----
+
+Text: 
+
+If I had a nickel for every time someone asked me this question, I wouldn't need to design websites for a living. After educating a lot of people on this topic, I've decided to write an article on how much a website costs, what you should look for, and how much you should put aside for your website project.
+
+## Why You Should Invest
+**If designed correctly, with all the correct components in place, a website can actively deliver your a stream of paying customers that are advocates for your business.**
+
+## Never Just Get a Pretty-Looking Website
+Having a website for the sake of having a website is an utter waste of time and money, no matter how cheap you can get it. Having a website just to have a website is no different from brochures sitting in a corner of your office. It does practically nothing for you business. You see, when you have brochures in your office, cafe, whatever, it’s not actually brining in new business, you already need to have someone in your shopfront to give your brochure to. 
+
+The same goes for a website. If you have to tell people that already give you their business about your website, then your website isn’t doing the job it could be.
+
+You website should be a way to:
+1. bring in new customers and clients
+2. make it easy for your current  customers to spread the word about your business
+3. allow you to sell an products you can online
+
+
+## Different web design pricing levels
+
+### Websites Under $1,000
+I can guarantee that websites in this prices range are simple Wordpress installs with an off-the-shelf theme installed. This is a classic example of you get what you pay for. Rather than purchase a website in this price range, you are better off installing Wordpress yourself, buying a theme you like, and focusing on the content so you can grow your business.
+
+#### How to install a Wordpress site
+1. Purchase [Wordpress Hosting](http://www.bluehost.com/track/adamrasheed) from Bluehost (go to: products > Wordpress Hosting)
+2. Install Wordpress using the One-click install.
+3. Set up your Profile
+4. Done :) 
+
+### Websites from $2,500 to $5,000
+The pool of options gets much bigger in this price range. All inclusive projects (design and development) in this price range will usually result you a semi-custom design and overall site. The most common professionals in this range are small agencies and freelancers that create websites for small businesses in this price range. 
+
+You can typically get individuals who are just starting out (read: inexperienced) to do take on fully custom design projects in this range or get more experienced individuals to create either just the web design or web development for your project.
+
+### Custom Websites That Cost $5,000 or More
+Fully Custom Websites that include: research, content strategy, UI design, front-end development, and using it to create a custom theme for the most appropriate CMS such as WordPress or Shopify.
+
+#### Web projects at this price level should include:
+- Content strategy (even some copywriting)
+- Networks of great vendors (photographers, illustrators, etc.)
+- Design and Development
+
+## Getting the Content for Your Website
+Let’s take a moment to talk about the often overlooked yet extremely important part of web design: the content.
+
+## How Much Should Photography and graphics for the Website cost?
+
+### Photography
+See if they usually partner with professional photographers in the area. Nothing can replace a unique photoshoot 
+For certain clients, I offer head shots for the about us page for your project and well and lifestyle photography for the home page and marketing materials.
+
+### Graphics and Logos
+Your Web professional should also be able to refer you to excellent graphic designers and illustrators they’ve worked with in the past. Since I’m in the Orange County area, I’ve created a website of the [creative professionals in Orange County ](http://occreative.co)I refer my clients to.
+
+## Payment Options
+There are a few different ways web designers can charge for their work.
+
+### Websites With One-Time Payment
+**This is the option is recommend.**
+This is the most common way websites are priced. You’ll pay for the fully custom website once, just like go pay a tailor to make you a suit. You tailor will measure you first, and then craft a suit from scratch to fits you perfectly, and then he bills you once, not every time you wear the suit.
+
+### Pay-As-You-Go Websites
+I personally never liked the concept of paying monthly for a service that isn’t being worked on regularly. You should own the website outright so whatever happens, the website will be yours. You can host it own your own [website hosting](http://www.bluehost.com/track/adamrasheed) that you purchased or see if your web designer offers hosting. At Creatix, I offer a simple $15/month hosting plan that includes monthly backups.
+
+## You’re Asking The Wrong Question
+Good Design isn’t a cost, but rather an investment. And like any investment, you should focus on ROI. 
+
+## The anatomy of a High Performing Website
+
+### High-quality Content
+
+### Design
+Design is quite important, but not the most important aspect of the web design process. That’s right, a web designer is saying that web design is not the most important part of designing a website. It’s not important in the sense that it shouldn’t be the only thing you should focus.
+
+### Development
+
+#### Lean Code
+Lean, un-bloated code helps your website load much faster. SEO Rankings increase.
+
+#### Well-Documented
+Allows any developers in the future to jump on your website much easier.
+
+### Focus on Business Goals
+Clear Call-to-Actions that encourage your visitors to take the actions you want, such as sign up to an email list so you can send them high-value email newsletters.
+
+## Managing Your Website
+So you’ve built the site, but soon you’ll realize that a website, like a house, really is never finished. There are always improvements and bug fixes you can make to make your site performance better. In addition, you'll inevitably need to make quick changes time to time. Are you supposed to hire your developer every time you want to do that?
+
+### Quick Updates
+A great option is to use a CMS like Wordpress or Kirby(which this site is built on) and your web designer/developer  should help show you how to log in to your website and make simple changes.
+
+### Major Updates
+Is your designer available for major website updates? Can he/she guarantee that he/she will have time to service your needs? Retainer?
+
+## Going Beyond the Website
+You now have a functioning website that's designed from the ground up around your busines. That’s great news! But, now what? Where are the stream of clients lining up at your door begging to give you their business (i.e. iPhone release day)? Well, you have the hub to turn your visitors into paying customers, now you need to work on getting traffic to it.
+
+### Marketing Strategy
+You need to figure out an overall strategy that will get for your website. A strategy, as opposed to a tactic, is a big-picture plan for your business in which you can use strategies like Facebook ads, sales promotions, etc. to help you fulfill your plan.
+
+### Marketing Funnel
+Think of you business like a funnel. You pour in targeted traffic at the top, and from the bottom comes out a stream of paying customers. The trick is to nurture your traffic one step at a time, raising their trust in you and get them to see the value in what you’re offering.
+
+### The Ultimate Role of a Small Business Website
+Your website should be the start of your funnel. All your ads and marketing should point there. From there, you can get them to give your permission to reach out to them (via an email optin) and nurture your relationship from there.
+Goal: 1,900 words

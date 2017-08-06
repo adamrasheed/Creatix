@@ -1,0 +1,11 @@
+Title: Woohoo
+
+----
+
+Text: 
+
+##Thanks For Signing Up!
+
+![Signup Succes Image](https://media.giphy.com/media/axu6dFuca4HKM/giphy.gif)
+
+**You should receive a confirmation email shortyl. Simply confirm and you'll get your top ten list!**
