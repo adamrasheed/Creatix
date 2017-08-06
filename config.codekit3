@@ -207,6 +207,26 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/images\/Headshot.jpg": {
+		"ft": 16384,
+		"iS": 338458,
+		"oA": 0,
+		"oAP": "\/assets\/images\/headshot.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/images\/headshot@2x.jpg": {
+		"ft": 16384,
+		"iS": 885553,
+		"oA": 0,
+		"oAP": "\/assets\/images\/headshot@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/images\/hero-background.jpg": {
 		"ft": 16384,
 		"iS": 103091,
@@ -1587,6 +1607,26 @@
 		"oA": 2,
 		"oAP": "\/content\/error\/error.txt",
 		"oF": 0
+		},
+	"\/content\/home\/headshot.jpg": {
+		"ft": 16384,
+		"iS": 332714,
+		"oA": 0,
+		"oAP": "\/content\/home\/headshot.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/home\/headshot@2x.jpg": {
+		"ft": 16384,
+		"iS": 885553,
+		"oA": 0,
+		"oAP": "\/content\/home\/headshot@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/content\/home\/hero-background.jpg": {
 		"ft": 16384,
@@ -7653,7 +7693,7 @@
 		"oAP": "\/thumbs\/about\/photo-1472647077244-23bed45e50d9-75x75.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/thumbs\/about\/raid-sara-la-buena-market-75x75.jpg": {
@@ -8045,6 +8085,26 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/thumbs\/home\/headshot-75x75.jpg": {
+		"ft": 16384,
+		"iS": 2303,
+		"oA": 0,
+		"oAP": "\/thumbs\/home\/headshot-75x75.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/thumbs\/home\/headshot@2x-75x75.jpg": {
+		"ft": 16384,
+		"iS": 2299,
+		"oA": 0,
+		"oAP": "\/thumbs\/home\/headshot@2x-75x75.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/thumbs\/home\/hero-background-75x75.jpg": {
 		"ft": 16384,
 		"iS": 2950,
@@ -8194,7 +8254,7 @@
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",

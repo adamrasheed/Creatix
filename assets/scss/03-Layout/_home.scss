@@ -1,10 +1,45 @@
 .section-about {
     padding: 0;
-    &__title {
-        margin: 0 0 1rem;
+    
+
+    &__container{
+        padding: 0 1rem;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: flex-start;
     }
-    &__image {
+
+    &__title {
+        margin: 0 0 0.333rem;
+    }
+
+    &__content{
+        flex: 1;
+        padding-left: 1rem;
+    }
+
+    &__img-container {
+        display: block;
+        flex: 0 33.333%;
         margin-bottom: 1.3em;
+    }
+
+    &__img{
+        display: block;
+        height: auto;
+        max-width: 100%;
+    }
+
+    @media #{$med} {
+        &__content{
+            padding-left: 2rem;
+        }
+        &__title {
+            margin: 0 0 1rem;
+        }
+    }
+
+    @media #{$lrg}{
     }
 }
 
