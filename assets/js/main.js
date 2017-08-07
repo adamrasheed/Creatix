@@ -25,26 +25,31 @@ document.addEventListener("DOMContentLoaded", function() {
     const body = document.body;
     const stickyTrigger = 560;
 
+
+    const hamburger = document.getElementById('hamburger');
+    const mobMenu = document.querySelector('.mob-menu');
+
     const stickyHeader = document.querySelector('.header--sticky');
     const isSticky = "is-sticky";
 
-    function scrollNav(){
-        console.log(window.scrollY);
-    }
-
+    // Sticky Trigger
     function stickyNav(){
         if (window.scrollY > stickyTrigger) {
-            console.log('should be sticky!');
             stickyHeader.classList.add(isSticky);
-            // stickyHeader.classList.add("stickkky");
         } else {
-            // stickyHeader.classList.toggle(isSticky);
             stickyHeader.classList.remove(isSticky);
         }
     }
-
     window.addEventListener('scroll', stickyNav);
-    // body.className('Working!');
+
+    // Hamburger Menu
+    window.addEventListener('click', function(){ 
+        mobMenu.classList.toggle('menu-open');
+        body.classList.toggle('menu-open');
+        stickyHeader.classList.toggle('menu-open');
+    });
+
+
 
     console.log('yo');
 }, false);

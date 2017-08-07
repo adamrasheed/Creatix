@@ -1,7 +1,7 @@
 .mob-menu{
     width: 16rem;
     background: white;
-
+    height: 100vh;
     display: flex;
     flex-flow: column nowrap;
     align-items: stretch;
@@ -11,7 +11,6 @@
     top: 0;
     right: 0;
     // bottom: 0;
-    height: 100vh;
     z-index: 3;
 
     box-shadow: $shadow-2;
@@ -19,6 +18,9 @@
     .social{
         padding: 1rem 0;
     }
+
+    transition: map-get( $transition, med );
+    transform: translateX(110%);
 }
 
 .mob-nav{
@@ -67,6 +69,24 @@
             }
         }
     }
+}
+
+.mob-menu.menu-open{
+    transform: translateX(0);
+}
+
+body {
+    width: 100%;
+    height: auto;
+    transition: map-get( $transition, med );
+}
+
+.header--sticky.menu-open{
+    transform: translateX(-16rem);
+}
+
+body.menu-open, .header.mob-menu.menu-open{
+    // transform: translateX(-16rem);
 }
 
 .page-overlay{

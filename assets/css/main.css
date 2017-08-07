@@ -519,6 +519,7 @@ img {
 .mob-menu {
   width: 16rem;
   background: white;
+  height: 100vh;
   display: flex;
   flex-flow: column nowrap;
   align-items: stretch;
@@ -526,9 +527,10 @@ img {
   position: fixed;
   top: 0;
   right: 0;
-  height: 100vh;
   z-index: 3;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.25s ease-in-out;
+  transform: translateX(110%); }
   .mob-menu .social {
     padding: 1rem 0; }
 
@@ -567,6 +569,17 @@ img {
     padding: 0 1px;
     background: #FAD961;
     margin-left: .25rem; }
+
+.mob-menu.menu-open {
+  transform: translateX(0); }
+
+body {
+  width: 100%;
+  height: auto;
+  transition: all 0.25s ease-in-out; }
+
+.header--sticky.menu-open {
+  transform: translateX(-16rem); }
 
 .page-overlay {
   position: absolute;
