@@ -2,10 +2,11 @@
 .case-study{  
     &__item {
         margin: 0 auto;
-        width: 90%;
+        width: 100%;
         position: relative;
         overflow: hidden;
-        height: 65vh;
+        height: 50vh;
+        margin-bottom: 1rem;
     }
     &__link {
         color: white;
@@ -65,10 +66,21 @@
     	margin-bottom: 1rem;
     }
 
+    @media #{$sml-device}{
+        &__overlay{
+            background: map-get($overlay, dark )
+
+        }
+    }
+
     @media #{$lrg} {
 
+        &__overlay{
+            background: map-get($overlay, light )
+        }
+
         &__item{
-            width: 50%;
+            // width: 50%;
             height: 20rem;
             &:hover {
                 .case-study__overlay {

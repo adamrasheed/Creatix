@@ -27,7 +27,7 @@
   
         <div class="footer__contact sml med--col-3 lrg--col-3 lrg--offset-1">
             <?php if ($page->id() != 'contact'): ?>
-            <a href="<?= $site->page('contact')->url()  ?>" class="footer__cta btn btn--secondary cta">Get in Touch</a>
+            <a href="<?= $site->page('contact')->url()  ?>" class="footer__cta btn btn--secondary btn--full cta">Get in Touch</a>
             <?php endif; ?>
               
             <?php snippet('social') ?>
@@ -53,6 +53,7 @@
 
   <!-- Custom JS -->
   <?php echo js('assets/js/min/main-min.js') ?>
-
+  
+</div><!-- end body wrapper -->
 </body>
 </html>

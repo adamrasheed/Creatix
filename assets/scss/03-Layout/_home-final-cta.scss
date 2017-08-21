@@ -11,7 +11,7 @@
     background-position:center bottom;
     background-repeat: no-repeat !important;
     padding: 2rem 0 1.5rem;
-    @med #{$med} {padding: 4rem 0}
+    @med #{$med-screen} {padding: 4rem 0}
     @media #{$lrg} {padding: 8rem 0}
 }
 .final-CTA {

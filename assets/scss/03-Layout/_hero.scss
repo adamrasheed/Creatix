@@ -55,7 +55,7 @@
 
 }
 
-@media #{$med} {
+@media #{$med-device} {
     .hero {
         &__container{
             padding-top: 1rem;

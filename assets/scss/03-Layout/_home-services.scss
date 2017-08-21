@@ -21,7 +21,7 @@
         margin-bottom: 0;
         width: 100%;}
 
-    @media #{$med} {
+    @media #{$med-screen} {
         padding: 1.5rem 1rem 2rem;
         height: 16rem;
         &__title, &__body,{

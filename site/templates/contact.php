@@ -14,18 +14,14 @@
     </div>
 
     <div class="row text">
-    	<div class="sml med--col-4 lrg--col-4">
+    	<div class="sml med--col-4 lrg--col-8">
     		<?= $page->text()->kirbytext() ?>
-    		<link href="//static.cushionapp.com/availability.css" rel="stylesheet">
-            <script src="//static.cushionapp.com/availability.js"
-              data-user="f8a9b517-eb9c-48b3-bc4a-79ebda2d8309"></script>
-              
-              <h3>I'm currently <span data-availability-badge></span></h3>
+    		
     		<a
-                class="typeform-share link btn btn--primary"
-                href="https://adamrasheed.typeform.com/to/YAwXD0"
-                data-mode="drawer_right" 
-              >
+          class="typeform-share link btn btn--primary btn--full"
+          href="https://adamrasheed.typeform.com/to/YAwXD0"
+          data-mode="drawer_right" 
+        >
       	<?php if($page->cta() != ''): ?>
       		<?php echo $page->cta() ?>
       	<?php else: ?>

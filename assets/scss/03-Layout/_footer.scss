@@ -54,7 +54,7 @@
     }
 
 
-    @media #{$med} {
+    @media #{$med-screen} {
     &__contact {
         order: 1;
         width: inherit;

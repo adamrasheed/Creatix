@@ -12,8 +12,6 @@ Description:
 
 Hi, I'm Adam Rasheed, a UI/UX/Web designer and Front-end Developer. In a nutshell, I can design your website, and then code it up so it works on phones, tablets, and computers across the world. I make sure to create aesthetically kickass designs and clean, scalable code, but what I really pride myself in is designing your projects around your business goals to make sure you get a return on your investment with me.
 
-(link: contact text: Start Your Project Today!)
-
 ----
 
 Clients: 

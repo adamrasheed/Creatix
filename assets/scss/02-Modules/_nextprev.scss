@@ -51,7 +51,7 @@
  
 
     &--case-study{
-        @media #{$med} {
+        @media #{$med-screen} {
             margin-bottom: 4rem;
         }
     }

@@ -84,7 +84,7 @@
         flex: 100%;
     }
     
-    @media #{$med} {
+    @media #{$med-screen} {
         flex-flow: row nowrap;
         justify-content: center;
         align-items: flex-end;

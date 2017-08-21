@@ -1,26 +1,43 @@
 // About Page
 
 .author-info {
-    margin: 0 0 2rem;
+    margin: 0 auto 2rem;
+    width: 14rem;
+    // display: flex;
+    // justify-content: center;
+    // align-items: flex-start;
+
     &__img {
         margin: 0 0 0.5rem;
     }
     &__links {
         display: flex;
         justify-content: center;
+        flex-flow: column nowrap;
+        margin-bottom: .75rem;
     }
     &__phone, &__email {
-        margin: 0 .75rem;
+        padding: 0 .75rem;
+        margin: 0 auto;
+        display: block;
     }
     &__link, a {
         color: $text;
         font-weight: medium;
         text-decoration: none;
+        text-align: center;
         &:hover {text-decoration: underline}
     }
     &__social {
         .social-link {margin: 0 0.75rem}
         i {font-size: 1.5rem}
+    }
+
+    @media #{$med-screen}{
+        margin: 0 0 2rem; 
+        &__img{
+            width: 100%;
+        }
     }
 }
 .about-description {margin: 0 0 2rem;}
@@ -74,7 +91,7 @@
     }
 }
 
-@media #{$med} {
+@media #{$med-screen} {
     .author-info {
         margin-bottom: 4rem;
     }

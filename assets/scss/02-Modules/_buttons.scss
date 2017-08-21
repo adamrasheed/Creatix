@@ -3,24 +3,35 @@
 .btn {
     font-family: $btn-text;
     font-size: 1rem;
-    font-weight: 700;
-    //text-transform: uppercase;
+    font-weight: 500;
+    text-transform: uppercase;
+    // font-variant: small-caps;
     color: white;
     cursor: pointer;
-    display: block;
+    display: inline-block;
     text-align: center;
     background: $text;
     -webkit-appearance: none;
     text-decoration: none;
     line-height: 1;
-    letter-spacing: .05em;
-    padding: 1.25rem 1rem 1.25rem;
+    letter-spacing: .1em;
+    padding: 1rem 2rem;
     margin: 0 0 1rem;
     transform: translateY(-4px);
     transition: map-get($transition, short);
     &:hover, &:focus {
         outline: none;
         transform: translateY(-2px);
+    }
+
+    &--full{
+        display: block;
+    }
+
+    &--small{
+        font-size: $font-size-small;
+        letter-spacing: .15em;
+        padding: .875rem 1.5rem;
     }
     
     &--primary {

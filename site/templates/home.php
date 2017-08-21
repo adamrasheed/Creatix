@@ -20,7 +20,13 @@
             <div class="testimonial__body"><?= $tst->body()->kt(); ?></div>
 
             <?php if($tst->image() != ''): ?>
-                <img src="<?= $tst->image()->url(); ?>" alt="" class="testimonial__image">
+                <?php if($tst->link() != ''): ?>
+                    <a href="<?= $tst->link() ?>" class="testimonial__client-link" target="_blank">
+                        <img src="<?= $tst->image()->url(); ?>" alt="" class="testimonial__image">
+                    </a>
+                <?php else: ?>
+                    <img src="<?= $tst->image()->url(); ?>" alt="" class="testimonial__image">
+                <?php endif; ?>
             <?php endif ?>
 
         
@@ -28,8 +34,9 @@
                 
                     <h5 class="testimonial__client-name">
                         <?php if($tst->link() != ''): ?>
-                            <a href="<?= $tst->link() ?>" class="testimonial__client-link" target="_blank"><?= $tst->title(); ?>
-                        </a>
+                            <a href="<?= $tst->link() ?>" class="testimonial__client-link" target="_blank">
+                                <?= $tst->title(); ?>
+                            </a>
                         <?php else: ?>
                             <?= $tst->title(); ?>
                     </h5>

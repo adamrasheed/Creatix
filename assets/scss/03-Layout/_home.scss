@@ -31,7 +31,7 @@
         max-width: 100%;
     }
 
-    @media #{$med} {
+    @media #{$med-screen} {
         &__content{
             padding-left: 2rem;
         }

@@ -6,6 +6,16 @@ $body: 'Lora', serif;
 $btn-text: 'Avenir', 'GothamBold', 'Montserrat', sans-serif;
 $testimonial-text: 'Lora',serif;
 
+//  Sizes
+$font-size-base: 16px;
+$font-size-small: .875rem;
+$font-size-extra-small: .75rem;
+$font-size-large: 1.125rem;
+
+// Weights
+$font-weight-light: 300;
+$font-weight-bold: 700;
+
 // Colors
 $text: hsla(0, 0%, 20%, 1);
 $light-text: #9B9B9B;
@@ -55,9 +65,14 @@ $shadow-1: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 $shadow-2: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 
 // Media
-$sml:  "only screen and (min-width : 15rem)";
-$med:  "only screen and (min-width : 45rem)";
+$sml-device:  "only screen and (min-device-width : 15rem)";
+$sml-screen:  "only screen and (min-width : 15rem)";
+
+$med-device:  "only screen and (min-device-width : 45rem)";
+$med-screen:  "only screen and (min-width : 45rem)";
+
 $lrg:  "only screen and (min-width : 60rem)";
+
 $xlrg: "only screen and (min-width : 80rem)";
 
 
@@ -74,14 +89,6 @@ $brands: (
 );
     
 
-$breakpoints: (
-    sml:  $sml,
-    med:  $med,
-    lrg:  $lrg,
-    xlrg: $xlrg
-);
-
-
 // Spacing
 $container-width: 72rem;
 $container-narrow: 40rem;
@@ -96,7 +103,7 @@ $section-margin: (
 
 .section-margin {
     margin-bottom: map-get($section-margin, sml) !important;
-    @media #{$med} {
+    @media #{$med-screen} {
         margin-bottom: map-get($section-margin, med) !important;
     }
     @media #{$lrg} {

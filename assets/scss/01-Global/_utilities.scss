@@ -51,7 +51,7 @@ body {
             margin-bottom: 1rem;
         }
 
-        // @media #{$med} {
+        // @media #{$med-screen} {
         //     h2, h3, h4, h5 {
         //     margin-bottom: 0;
         //     }
@@ -74,7 +74,7 @@ body {
             height: auto;
         }
 
-        @media #{$med} {
+        @media #{$med-screen} {
             margin-bottom: 4rem;
         }
     }
@@ -86,7 +86,7 @@ body {
     &--blog, &--default {
         padding: 0 1rem;
 
-        @media #{$med}{
+        @media #{$med-screen}{
             margin-bottom: 4rem;
         }
     }

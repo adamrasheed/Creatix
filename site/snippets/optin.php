@@ -29,7 +29,7 @@
         </div>
         
         <span class="optin-form__input-group optin-form__input-group--full optin-form__input-group--submit">
-            <button class="optin-form__submit btn btn--primary" id="ck_subscribe_button">Get Your Top 10 Things</button>
+            <button class="optin-form__submit btn btn--primary btn--small" id="ck_subscribe_button">Get Your Top 10 Things</button>
         </span>
 
         <div class="optin-form__group" id="ck_success_msg" style="display:none">

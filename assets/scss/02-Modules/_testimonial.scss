@@ -1,8 +1,8 @@
 .testimonial {
     &__body {
         font-family: $body;
-        font-size: 1.333rem;
-        line-height: 2rem;
+        font-size: $font-size-large;
+        line-height: 1.75rem;
         text-align: center;
         margin: 0 0 1.5rem;
         p {

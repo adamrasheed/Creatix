@@ -32,6 +32,10 @@
         
         <div class="about-description sml med--col-4 lrg--col-4">
             <?php echo $page->description()->kt() ?>
+            <a href="<?= $pages->find('contact')->url() ?>"
+                class="btn btn--primary btn--small">
+                Start Your Project Today!
+            </a>
         </div>
         
         <div class="about-proof sml med--col-8 lrg--col-4">
@@ -114,7 +118,7 @@
     <div class="row">
         <div class="about-cta sml med--col-6 med--offset-1 lrg--col-6 lrg--offset-3">
             <h4 class="about-cta__title center">Ready to Create Results for Your Business?</h4>
-            <a href="<?= $pages->find('roadmapping-session')->url() ?>" class="cta btn btn--primary">Schedule a Roadmapping Session</a>
+            <a href="<?= $pages->find('roadmapping-session')->url() ?>" class="cta btn btn--primary btn--full">Schedule a Roadmapping Session</a>
             <p class="center">Not Ready yet? Check out some <a href="<?php echo $pages->find('case-studies')->url() ?>">Case Studies</a></p>
         </div>
     </div>

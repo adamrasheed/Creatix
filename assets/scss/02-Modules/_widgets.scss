@@ -8,6 +8,12 @@
         margin: 0 0 1.5rem;
     }
     p {margin-bottom: 1rem;}
+
+    &__pointer{
+        display: inline-block;
+        transform: translateY(-12px);
+        padding-left: .25rem;
+    }
 }
 .widget-about {
     &__img {
@@ -35,6 +41,12 @@
             color: lighten($text, 15%);
         }
     }
+}
+
+.ck-img{
+    display: inline-block;
+    max-width: 12rem;
+    height: auto;
 }
 
 @media #{$lrg} {

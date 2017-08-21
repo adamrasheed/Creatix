@@ -4,9 +4,6 @@ article {
     p {margin: 0 0 2rem}
     img {margin: 0 0 1rem}
     
-    @media #{$lrg} {
-        //p {margin: 0 0 3rem}
-    }
 }
 
 .article {
@@ -38,7 +35,7 @@ article {
 	&__share{
 		margin-bottom: 1rem;
 
-		@media #{$med} {
+		@media #{$med-screen} {
 			margin-bottom: 2rem;
 		}
 	}

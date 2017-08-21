@@ -29,7 +29,7 @@
         }
     }
 
-    @media #{$med} {
+    @media #{$med-screen} {
         &__link {margin: 0;}
     }
 }
