@@ -550,6 +550,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/scss\/02-Modules\/_back-to-top.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/css\/_back-to-top.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/scss\/02-Modules\/_breadcrumbs.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -7402,6 +7415,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/site\/snippets\/about\/why-work.php",
+		"oF": 0
+		},
+	"\/site\/snippets\/back-to-top.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/snippets\/back-to-top.php",
 		"oF": 0
 		},
 	"\/site\/snippets\/breadcrumbs.php": {

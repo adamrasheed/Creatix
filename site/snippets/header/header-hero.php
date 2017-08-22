@@ -5,3 +5,5 @@
 <body>
 <div class="body-wrapper">
 <?php // snippet('header/header-nav-sticky'); ?>
+<?php snippet('header/mob-nav'); ?>
+<?php snippet('back-to-top'); ?>

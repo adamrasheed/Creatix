@@ -716,6 +716,30 @@ article img {
   .article__share-link--twt {
     color: #1da1f2; }
 
+.back-to-top {
+  background: linear-gradient(-180deg, #FF4C4C 0%, #E84545 100%);
+  width: 2.25rem;
+  height: 2.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 0 .25rem .25rem;
+  position: fixed;
+  z-index: 999;
+  bottom: 3rem;
+  left: 1rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
+  .back-to-top__icon {
+    color: white;
+    background: linear-gradient(-180deg, #FF4C4C 0%, #E84545 100%);
+    display: inline-block;
+    font-size: 1.25rem;
+    line-height: 1; }
+  @media only screen and (min-width: 60rem) {
+    .back-to-top {
+      display: none; } }
+
 .btn {
   font-family: "Avenir", "GothamBold", "Montserrat", sans-serif;
   font-size: 1rem;

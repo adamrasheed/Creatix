@@ -7,6 +7,7 @@
     <div class="hero__content">
 
         <?php snippet('header/header-nav-hero') ?>
+        
 
         <?php snippet('header/hero-container'); ?>
 
