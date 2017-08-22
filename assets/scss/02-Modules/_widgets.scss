@@ -14,6 +14,10 @@
         transform: translateY(-12px);
         padding-left: .25rem;
     }
+
+    &__img{
+        text-decoration: none;
+    }
 }
 .widget-about {
     &__img {
@@ -51,7 +55,7 @@
 
 @media #{$lrg} {
     .widget {
-        margin-bottom: 4rem;
+        margin-bottom: 3rem;
         &__title {
             margin-bottom: 0.5rem;
         }

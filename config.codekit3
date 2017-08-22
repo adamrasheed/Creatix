@@ -602,6 +602,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/scss\/02-Modules\/_nav.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/css\/_nav.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/scss\/02-Modules\/_nextprev.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -7425,6 +7438,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/site\/snippets\/header\/header-hero.php",
+		"oF": 0
+		},
+	"\/site\/snippets\/header\/header-nav-hero.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/snippets\/header\/header-nav-hero.php",
 		"oF": 0
 		},
 	"\/site\/snippets\/header\/header-nav-sticky.php": {

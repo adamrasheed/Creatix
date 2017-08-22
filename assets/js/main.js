@@ -15,7 +15,6 @@
 //     }
 // };
 
-
 // hamburger.addEventListener('click', mobMenu);
 
 
@@ -23,14 +22,26 @@
 document.addEventListener("DOMContentLoaded", function() {
 
     const body = document.body;
-    const stickyTrigger = 560;
+    const stickyTrigger = 560; // Pixel Height at which sticky nav triggers
 
-
-    const hamburger = document.getElementById('hamburger');
-    const mobMenu = document.querySelector('.mob-menu');
+    const hamburger = document.querySelector('.menuToggle');
+    const mobMenu = document.querySelector('#mobMenu');
 
     const stickyHeader = document.querySelector('.header--sticky');
     const isSticky = "is-sticky";
+
+    // Hamburger Menu
+    hamburger.addEventListener('click', function(){
+        // if(mobMenu.classList.contains('menu-open')) {
+        //     this.classList.remove('menu-open');
+        // } else {
+        //     this.classList.add('menu-open');
+        // }
+        // mobMenu.classList.toggle('.menu-open');
+        body.classList.toggle('menu-open');
+        // stickyHeader.classList.toggle('menu-open');
+        console.log('howdy');
+    });
 
     // Sticky Trigger
     function stickyNav(){
@@ -42,14 +53,15 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     window.addEventListener('scroll', stickyNav);
 
-    // Hamburger Menu
-    window.addEventListener('click', function(){ 
-        mobMenu.classList.toggle('menu-open');
-        body.classList.toggle('menu-open');
-        stickyHeader.classList.toggle('menu-open');
-    });
+    
+
+
 
 
 
     console.log('yo');
 }, false);
+
+
+// if sticky is showing, move sticky horiszontally
+//else, don't move sticky

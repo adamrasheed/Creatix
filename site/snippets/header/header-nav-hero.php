@@ -1,17 +1,19 @@
-<header class="header" role="banner">
+<header class="header header--hero" role="banner">
     <div class="header__container row">
         <!--Site Logo-->
-        <a class="header__logo" id="site-logo" href="<?php echo url() ?>">
+        <a class="header__logo header__logo--hero" id="site-logo" href="<?php echo url() ?>">
             <?php snippet('header/logo') ?>
         </a>
         
         <!--Hamburger Icon-->
-        <div id="hamburger" class="menuToggle header__hamburger">
+        <div id="hamburger" class="menuToggle header__hamburger header__hamburger--hero">
             <i class="fa fa-bars header__hamburger-icon center"></i>
             <h5 class="header__menu-text center">Menu</h5>
         </div>
         
         <!--navigation menu-->
-        <?php snippet('header/menu') ?>
+        <?php snippet('header/menu',
+                array('class' => 'header__nav--hero'));
+        ?>
     </div><!-- end .container -->
 </header>

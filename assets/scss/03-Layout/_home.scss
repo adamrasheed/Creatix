@@ -10,9 +10,6 @@
         align-items: flex-start;
     }
 
-    &__title {
-        margin: 0 0 0.333rem;
-    }
 
     &__content{
         flex: 1;
@@ -34,9 +31,6 @@
     @media #{$med-screen} {
         &__content{
             padding-left: 2rem;
-        }
-        &__title {
-            margin: 0 0 1rem;
         }
     }
 

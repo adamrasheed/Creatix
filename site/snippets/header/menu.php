@@ -1,4 +1,6 @@
-<nav class="header__nav" role="navigation">
+<nav
+    class="header__nav <?php echo isset($class)? $class: ''; ?>"
+    role="navigation">
     
     <ul class="nav-menu">
 
@@ -12,3 +14,4 @@
     </ul>
 
 </nav>
+

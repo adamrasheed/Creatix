@@ -72,9 +72,7 @@ p {
 
 a {
     color: $link;
-    &:hover, &:focus {
-        outline: none;
-    }
+    text-decoration-skip: ink;
 }
 
 ul {
@@ -131,18 +129,19 @@ figcaption {
     h1 {
         font-size: 3.157rem;
         line-height: 3.5rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
     }
 
     h2 {
         font-size: 2.369rem;
         line-height: 2.75rem;
-        margin-bottom: 1rem;
+        margin-bottom: .5rem;
     }
 
     h3 {
         font-size: 1.777rem;
         line-height: 2rem;
+        margin-bottom: .5rem;
     }
 
     h4 {

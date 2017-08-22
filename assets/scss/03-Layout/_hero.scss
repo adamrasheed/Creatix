@@ -40,17 +40,6 @@
     svg #Logo-Black {fill: white}
     #hamburger, #hamburger i {color: white}
     
-    .nav-link {
-        color: white;
-
-        text-decoration: none;
-        transition: map-get($transition, short);
-
-        &:hover, &:focus {
-            background: none;
-            color: darken(white, 30%) !important;
-        }
-    }
 
 
 }

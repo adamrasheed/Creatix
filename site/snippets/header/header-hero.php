@@ -3,4 +3,5 @@
 <?php snippet('header/head') ?>
 
 <body>
-<?php snippet('header/header-nav-sticky'); ?>
+<div class="body-wrapper">
+<?php // snippet('header/header-nav-sticky'); ?>

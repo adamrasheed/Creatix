@@ -1,4 +1,4 @@
-<div class="mob-menu">
+<div class="mob-menu" id="mobMenu">
     <nav class="mob-nav" role="navigation">
     
         <ul class="mob-nav__list">

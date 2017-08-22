@@ -1,26 +1,32 @@
 .mob-menu{
     width: 16rem;
     background: white;
-    height: 100vh;
+    max-height: 100%;
     display: flex;
     flex-flow: column nowrap;
     align-items: stretch;
     justify-content: flex-start;
 
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
-    // bottom: 0;
+    bottom: 0;
     z-index: 3;
 
     box-shadow: $shadow-2;
 
     .social{
         padding: 1rem 0;
+        max-width: 100%;
+        justify-content: space-around;
+
+        .social-link{
+            margin: 0 0;
+        }
     }
 
     transition: map-get( $transition, med );
-    transform: translateX(110%);
+    transform: translateX(16.5rem);
 }
 
 .mob-nav{
@@ -82,11 +88,13 @@ body {
 }
 
 .header--sticky.menu-open{
-    transform: translateX(-16rem);
+    transform: translateX(-17rem);
 }
 
-body.menu-open, .header.mob-menu.menu-open{
-    // transform: translateX(-16rem);
+body.menu-open{
+    transform: translateX(-16rem);
+    height: 100vh;
+    overflow: hidden;
 }
 
 .page-overlay{

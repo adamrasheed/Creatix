@@ -120,9 +120,8 @@ p {
   margin: 0 0 1.5rem; }
 
 a {
-  color: #0093E9; }
-  a:hover, a:focus {
-    outline: none; }
+  color: #0093E9;
+  text-decoration-skip: ink; }
 
 ul {
   margin: 0 0 1rem; }
@@ -172,14 +171,15 @@ figcaption {
   h1 {
     font-size: 3.157rem;
     line-height: 3.5rem;
-    margin-bottom: 2rem; }
+    margin-bottom: 1.5rem; }
   h2 {
     font-size: 2.369rem;
     line-height: 2.75rem;
-    margin-bottom: 1rem; }
+    margin-bottom: .5rem; }
   h3 {
     font-size: 1.777rem;
-    line-height: 2rem; }
+    line-height: 2rem;
+    margin-bottom: .5rem; }
   h4 {
     font-size: 1.333rem;
     line-height: 1.5rem; }
@@ -189,6 +189,9 @@ figcaption {
 .container, .container--flex, .row, .container--flex0 {
   max-width: 72rem;
   margin: 0 auto; }
+  @media only screen and (min-width: 80rem) {
+    .container, .container--flex, .row, .container--flex0 {
+      width: 72rem; } }
   .container--flex, .row {
     display: flex;
     justify-content: flex-start;
@@ -467,8 +470,7 @@ body {
   justify-content: center;
   flex-flow: row wrap;
   flex-wrap: wrap;
-  align-items: flex-start;
-  position: relative; }
+  align-items: flex-start; }
   body header, body .hero, body .container--flex, body .row, body footer {
     flex: 1 100%; }
   body .main {
@@ -516,23 +518,100 @@ img {
 .padding-1, .padding {
   padding: 0 1rem; }
 
+.body-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0; }
+
+.nav-menu {
+  flex: 0 0 100%;
+  margin: 1rem 0 0;
+  display: none; }
+
+.nav-item {
+  display: block;
+  flex: 1;
+  margin: 0; }
+  .nav-item:last-of-type a {
+    box-shadow: none; }
+
+.nav-link {
+  display: block;
+  font-family: "Avenir", "GothamMedium", "Montserrat", sans-serif;
+  font-weight: 600;
+  color: white;
+  background: #333333;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  padding: 1.5rem;
+  box-shadow: inset 0 -1px 0 #9B9B9B; }
+  .nav-link:hover, .nav-link:focus {
+    background: white !important;
+    color: #333333 !important; }
+
+@media only screen and (min-width: 60rem) {
+  .nav-menu {
+    flex: 1;
+    display: block;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0; }
+  .nav-item {
+    display: inline-block;
+    flex: none;
+    margin-left: 1.5rem; }
+  .nav-link {
+    color: #333333;
+    padding: .25rem .5rem;
+    background: none;
+    line-height: 1.5;
+    box-shadow: none;
+    text-decoration: none;
+    transition: all 0.125s ease-in-out; }
+    .nav-link--active:after {
+      content: '';
+      display: block;
+      background: #333333;
+      padding: 1px 0;
+      margin-top: .25rem; }
+    .nav-link--active:hover:after {
+      background: #666666; }
+    .nav-link:hover, .nav-link:focus {
+      background: none;
+      color: #666666 !important; }
+  .header__nav--hero .nav-link {
+    color: white;
+    text-decoration: none;
+    transition: all 0.125s ease-in-out; }
+    .header__nav--hero .nav-link:hover, .header__nav--hero .nav-link:focus {
+      background: none;
+      color: #333333; } }
+
 .mob-menu {
   width: 16rem;
   background: white;
-  height: 100vh;
+  max-height: 100%;
   display: flex;
   flex-flow: column nowrap;
   align-items: stretch;
   justify-content: flex-start;
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
+  bottom: 0;
   z-index: 3;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   transition: all 0.25s ease-in-out;
-  transform: translateX(110%); }
+  transform: translateX(16.5rem); }
   .mob-menu .social {
-    padding: 1rem 0; }
+    padding: 1rem 0;
+    max-width: 100%;
+    justify-content: space-around; }
+    .mob-menu .social .social-link {
+      margin: 0 0; }
 
 .mob-nav:first-of-type:after {
   content: '';
@@ -579,7 +658,12 @@ body {
   transition: all 0.25s ease-in-out; }
 
 .header--sticky.menu-open {
-  transform: translateX(-16rem); }
+  transform: translateX(-17rem); }
+
+body.menu-open {
+  transform: translateX(-16rem);
+  height: 100vh;
+  overflow: hidden; }
 
 .page-overlay {
   position: absolute;
@@ -869,6 +953,12 @@ article img {
     .tabs-nav__item--active {
       color: #333333; }
 
+.testimonial__container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center; }
+
 .testimonial__body, .testimonial__body p {
   font-family: "Lora", serif;
   font-size: 1.125rem;
@@ -885,10 +975,10 @@ article img {
   align-items: flex-start; }
 
 .testimonial__image {
-  display: block;
+  display: inline-block;
   max-width: 6rem;
   height: auto;
-  margin: .5rem auto 1.5rem;
+  margin: 0 auto 1.5rem;
   border-radius: 50%; }
 
 .testimonial__client-name, .testimonial__client-link {
@@ -897,7 +987,8 @@ article img {
   text-decoration: none; }
 
 .testimonial__client-link {
-  transition: all 0.125s ease-in-out; }
+  transition: all 0.125s ease-in-out;
+  max-width: 6rem; }
 
 .testimonial__client-name, .testimonial__client-site {
   margin: 0;
@@ -1194,6 +1285,8 @@ section {
     display: inline-block;
     transform: translateY(-12px);
     padding-left: .25rem; }
+  .widget__img {
+    text-decoration: none; }
 
 .widget-about__img {
   display: block;
@@ -1224,7 +1317,7 @@ section {
 
 @media only screen and (min-width: 60rem) {
   .widget {
-    margin-bottom: 4rem; }
+    margin-bottom: 3rem; }
     .widget__title {
       margin-bottom: 0.5rem; }
   .widget-about__title {
@@ -1249,10 +1342,8 @@ section {
     line-height: 1; }
   .header__nav {
     flex: 100%; }
-    .header__nav--hero #site-logo {
+    .header__nav--hero svg #Logo-Black {
       fill: white !important; }
-    .header__nav--hero .header__hamburger-icon {
-      color: white; }
   .header--sticky {
     position: fixed;
     height: auto;
@@ -1288,36 +1379,11 @@ section {
 .scrolling-logo {
   fill: #333333 !important; }
 
-.nav-menu {
-  flex: 0 0 100%;
-  margin: 1rem 0 0;
-  display: none; }
-
-.nav-item {
-  display: block;
-  flex: 1;
-  margin: 0; }
-  .nav-item:last-of-type a {
-    box-shadow: none; }
-
-.nav-link {
-  display: block;
-  font-family: "Avenir", "GothamMedium", "Montserrat", sans-serif;
-  font-weight: 600;
-  color: white;
-  background: #333333;
-  line-height: 1;
-  text-align: center;
-  text-decoration: none;
-  padding: 1.5rem;
-  box-shadow: inset 0 -1px 0 #9B9B9B; }
-  .nav-link:hover, .nav-link:focus {
-    background: white !important;
-    color: #333333 !important; }
-
 @media only screen and (min-width: 60rem) {
   .header, .header--hero {
-    margin: 1rem auto; }
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
     .header__container {
       flex-flow: row nowrap;
       padding: 1rem; }
@@ -1325,35 +1391,6 @@ section {
       display: none; }
     .header--sticky {
       margin: 0; }
-  .nav-menu {
-    flex: 1;
-    display: block;
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 0; }
-  .nav-item {
-    display: inline-block;
-    flex: none;
-    margin-left: 2rem; }
-  .nav-link {
-    color: #333333;
-    padding: 0;
-    background: none;
-    line-height: 1.5;
-    box-shadow: none;
-    text-decoration: none;
-    transition: all 0.125s ease-in-out; }
-    .nav-link--active:after {
-      content: '';
-      display: block;
-      background: #333333;
-      padding: 1px 0;
-      margin-top: .25rem; }
-    .nav-link--active:hover:after {
-      background: #666666; }
-    .nav-link:hover, .nav-link:focus {
-      background: none;
-      color: #666666 !important; }
   .sticky #site-logo {
     height: 2rem;
     width: 2rem; }
@@ -1394,13 +1431,6 @@ section {
     fill: white; }
   .hero #hamburger, .hero #hamburger i {
     color: white; }
-  .hero .nav-link {
-    color: white;
-    text-decoration: none;
-    transition: all 0.125s ease-in-out; }
-    .hero .nav-link:hover, .hero .nav-link:focus {
-      background: none;
-      color: #b3b2b2 !important; }
 
 @media only screen and (min-device-width: 45rem) {
   .hero__container {
@@ -1441,8 +1471,6 @@ section {
     justify-content: center;
     flex-flow: row nowrap;
     align-items: flex-start; }
-  .section-about__title {
-    margin: 0 0 0.333rem; }
   .section-about__content {
     flex: 1;
     padding-left: 1rem; }
@@ -1456,9 +1484,7 @@ section {
     max-width: 100%; }
   @media only screen and (min-width: 45rem) {
     .section-about__content {
-      padding-left: 2rem; }
-    .section-about__title {
-      margin: 0 0 1rem; } }
+      padding-left: 2rem; } }
 
 .content-container--padding {
   padding: 0 1rem; }

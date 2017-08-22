@@ -22,7 +22,11 @@
           <h3 class="roadmapping__cta-info-title center"><?= $page->cta_title() ?></h3>
           <div class="roadmapping__cta-info-text center"><?= $page->cta_info()->kirbytext() ?></div>
 
-          <a href="https://calendly.com/adamrasheed/30min" class="roadmapping__cta-info-cta roadmapping__cta btn btn--primary" target="_blank"><?= $page->cta() ?></a>
+          <a
+            href="https://calendly.com/adamrasheed/30min" class="roadmapping__cta-info-cta roadmapping__cta btn btn--primary btn--full"
+            target="_blank">
+              <?= $page->cta() ?>
+          </a>
         </div>
       </main><!-- end main-->
     </div>

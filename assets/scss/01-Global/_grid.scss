@@ -1,6 +1,10 @@
 .container {
 	max-width: $container-width;
 	margin: 0 auto;
+
+	@media #{$xlrg}{
+		width: $container-width;
+	}
 	
 	&--flex {
   	    @extend .container;

@@ -14,11 +14,11 @@
     </div>
 
     <div class="row text">
-    	<div class="sml med--col-4 lrg--col-8">
+    	<div class="sml med--col-6 lrg--col-8 xlrg--col-6">
     		<?= $page->text()->kirbytext() ?>
     		
     		<a
-          class="typeform-share link btn btn--primary btn--full"
+          class="typeform-share link btn btn--primary"
           href="https://adamrasheed.typeform.com/to/YAwXD0"
           data-mode="drawer_right" 
         >
