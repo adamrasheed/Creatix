@@ -593,16 +593,15 @@ img {
 .mob-menu {
   width: 16rem;
   background: white;
-  max-height: 100%;
+  height: 100%;
   display: flex;
   flex-flow: column nowrap;
   align-items: stretch;
   justify-content: flex-start;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
-  bottom: 0;
-  z-index: 3;
+  z-index: 999;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   transition: all 0.25s ease-in-out;
   transform: translateX(16.5rem); }
@@ -660,18 +659,24 @@ body {
 .header--sticky.menu-open {
   transform: translateX(-17rem); }
 
-body.menu-open {
+#wrapper {
+  transition: all 0.25s ease-in-out; }
+
+#wrapper.menu-open {
   transform: translateX(-16rem);
   height: 100vh;
-  overflow: hidden; }
+  overflow: scroll; }
 
 .page-overlay {
   position: absolute;
+  height: 100%;
+  width: 100%;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.65); }
+  background: rgba(0, 0, 0, 0.65);
+  z-index: 9; }
 
 article p {
   margin: 0 0 2rem; }

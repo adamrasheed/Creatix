@@ -22,6 +22,7 @@
 document.addEventListener("DOMContentLoaded", function() {
 
     const body = document.body;
+    const wrapper = document.getElementById('wrapper');
     const stickyTrigger = 560; // Pixel Height at which sticky nav triggers
 
     const hamburger = document.querySelector('.menuToggle');
@@ -39,8 +40,8 @@ document.addEventListener("DOMContentLoaded", function() {
         // } else {
         //     this.classList.add('menu-open');
         // }
-        // mobMenu.classList.toggle('.menu-open');
-        body.classList.toggle('menu-open');
+        mobMenu.classList.toggle('menu-open');
+        wrapper.classList.toggle('menu-open');
         // stickyHeader.classList.toggle('menu-open');
         console.log('howdy');
     });

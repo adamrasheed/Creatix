@@ -3,7 +3,9 @@
 <?php snippet('header/head') ?>
 
 <body>
-<div class="body-wrapper">
-<?php // snippet('header/header-nav-sticky'); ?>
+
 <?php snippet('header/mob-nav'); ?>
+
+<div id="wrapper" class="body-wrapper">
+<?php // snippet('header/header-nav-sticky'); ?>
 <?php snippet('back-to-top'); ?>
