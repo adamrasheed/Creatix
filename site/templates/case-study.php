@@ -10,8 +10,8 @@
 
 <div class="row">
     <main class="main main--case-study sml" role="main">
-
-    <?php if($image=$page->img()->toFile()): ?>    
+        <article>
+            <?php if($image=$page->img()->toFile()): ?>    
         <figure class="case-study__featured-img">
             <img src="<?php echo $image->url() ?>">
         </figure>
@@ -23,7 +23,8 @@
         
         
     <?php echo $page->text()->kirbytext() ?>
-    
+
+        </article>
     </main>
 </div>
 

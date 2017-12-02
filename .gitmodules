@@ -1,0 +1,3 @@
+[submodule "site/plugins/imageset"]
+	path = site/plugins/imageset
+	url = https://github.com/fabianmichael/kirby-imageset.git

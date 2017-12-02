@@ -169,19 +169,19 @@ figcaption {
   h1, h2, h3, h4 {
     font-weight: 600; }
   h1 {
-    font-size: 3.157rem;
-    line-height: 3.5rem;
+    font-size: 2.8rem;
+    line-height: 3.25rem;
     margin-bottom: 1.5rem; }
   h2 {
-    font-size: 2.369rem;
-    line-height: 2.75rem;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
     margin-bottom: .5rem; }
   h3 {
-    font-size: 1.777rem;
-    line-height: 2rem;
-    margin-bottom: .5rem; }
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin-bottom: .25rem; }
   h4 {
-    font-size: 1.333rem;
+    font-size: 1.125rem;
     line-height: 1.5rem; }
   figcaption {
     margin-bottom: 2rem; } }
@@ -892,6 +892,9 @@ article img {
   .optin__title, .optin__subtitle {
     margin-bottom: 1rem;
     flex: 100%; }
+  .optin__subtitle {
+    opacity: 0.8;
+    font-weight: 500; }
   @media only screen and (min-width: 60rem) {
     .optin {
       padding: 2rem 1rem; } }
@@ -1295,6 +1298,18 @@ section {
   @media only screen and (min-width: 60rem) {
     section {
       margin-bottom: 8rem; } }
+
+.section__title {
+  flex: 100%;
+  margin-bottom: 1rem;
+  font-size: 1.125rem; }
+  .section__title:after {
+    content: '';
+    display: inline-block;
+    background: #333333;
+    height: 2px;
+    width: 64px;
+    margin: 0 0 .25rem 1rem; }
 
 .sidebar {
   padding: 0 1rem; }
@@ -1785,7 +1800,7 @@ section {
     .service {
       margin-bottom: 6rem; } }
 
-.main--case-study p, .main--case-study h2, .main--case-study h3, .main--case-study h4, .main--case-study figure {
+.main--case-study p, .main--case-study h2, .main--case-study h3, .main--case-study h4, .main--case-study figure, .main--case-study ul {
   max-width: 40rem;
   margin-left: auto;
   margin-right: auto;

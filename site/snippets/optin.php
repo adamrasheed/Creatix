@@ -32,15 +32,11 @@
             <button class="optin-form__submit btn btn--primary" id="ck_subscribe_button">Get Your Top 10 Things</button>
         </span>
 
-        <div class="optin-form__group" id="ck_success_msg" style="display:none">
+        <div class="optin-form__group" id="ck_success_msg" style="display: none;">
             <p class="center white">Success! Now check your email to confirm your subscription.</p>
         </div><!-- end messages-->
         
     </form>
-    
-    <div id="ck_converted_content" class="optin-form__group optin-form__converted">
-        <h3 class="center white">You've Already Subscribed. Thanks!</h3>
-    </div>
     
 </div><!-- end optin-->
 

@@ -15,7 +15,7 @@
     <link rel="manifest" href="assets/images/fav/manifest.json">
     <link rel="mask-icon" href="assets/images/fav/safari-pinned-tab.svg" color="#e84545">
     <meta name="theme-color" content="#ffffff">
-    
+
     <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/aa889b8efb.js"></script>
 
@@ -23,12 +23,19 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700|Montserrat:400,700" rel="stylesheet">
 
     <!-- Styles -->
-	<?= css('assets/css/main.css') ?>
+    <?= css('assets/css/main.css') ?>
+
+    <!-- replaces "no-js" class on html element with "js" -->
+    <script>(function(d,c,r){d[c]=r.test(d[c])?d[c].replace(r,'$1js$2'):[d[c],'js'].join(' ')})(document.documentElement,'className',/(?:(^|\s)no-js(\s|$))/)</script>
+
+    <?= css('assets/plugins/imageset/css/imageset.min.css') ?>
 
     <!-- Heap Analytics -->
     <script type="text/javascript">
 	    window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
 	      heap.load("863430558");
-	</script>
+  </script>
+
+  <?= js('assets/plugins/imageset/js/dist/imageset.js') ?>
 
 </head>

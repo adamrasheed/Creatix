@@ -17,6 +17,11 @@
         margin-bottom: 1rem;
         flex: 100%;
     }
+
+    &__subtitle{
+        opacity: 0.8;
+        font-weight: 500;
+    }
     
     @media #{$lrg} {
         padding: 2rem 1rem;

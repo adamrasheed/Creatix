@@ -1,5 +1,5 @@
-<section class="content-container">
-    <h2 class="padding-1">Case Studies</h2>
+<section class="section content-container">
+    <h2 class="padding-1 section__title">Case Studies</h2>
     
     <div class="row">
         <?php foreach(page('case-studies')->children()->visible() as $caseStudy): ?>
@@ -7,9 +7,18 @@
             <div class="case-study__item">
                 <a href="<?php echo $caseStudy->url() ?>" class="case-study__link">
                     <?php if($image = $caseStudy->img()->toFile()): ?>
-                    <img src="<?php echo $image->url(); ?>" alt="" class="case-study__img">
+                    <img
+                        srcset="
+                            <?= $image->resize(240)->url() ?> 240w,
+                            <?= $image->resize(538)->url() ?> 400w,
+                            <?= $image->resize(1064)->url() ?> 1000w
+                        "
+                        sizes="(min-width: 400px) 25vw 100vw"
+                        src="<?php echo
+                        $image->url();?>" alt="" class="case-study__img">
                     <?php else: ?>
-                    <img src="https://unsplash.it/600/400" alt="" class="case-study__img">
+                    <img
+                        src="https://unsplash.it/600/400" alt="" class="case-study__img">
                     <?php endif ?>
 
                     <div class="case-study__overlay"></div>
