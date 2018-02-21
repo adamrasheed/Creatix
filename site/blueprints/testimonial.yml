@@ -23,8 +23,8 @@ fields:
     icon: link
     width: 1/3
 
-  site:
-    label: Testimonial Site 
+  company:
+    label: Testimonial Company/Site
     type: text
     icon: link
     width: 1/3

@@ -18,7 +18,7 @@
         margin: 0 1rem;
         color: $light-text;
         font-size: .75rem;
-        font-family: $headings;
+        font-family: $font-family-headings;
         
         &--full {
             @extend .footer-links__bottom-item;
@@ -28,7 +28,7 @@
 }
 
 .footer-link {
-    font-family: $headings;
+    font-family: $font-family-headings;
     font-weight: 600;
     color: $text;
     text-decoration: none;

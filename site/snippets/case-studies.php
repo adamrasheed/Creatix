@@ -5,7 +5,7 @@
 
         <?php foreach(page('case-studies')->children()->visible() as $caseStudy): ?>
 
-        <div class="case-study__item">
+        <div class="case-study__item case-study__item--stacked">
             <a href="<?php echo $caseStudy->url() ?>" class="case-study__link">
 
                 <?php if($image = $caseStudy->img()->toFile()): ?>

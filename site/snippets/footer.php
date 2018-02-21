@@ -9,6 +9,7 @@
                   <li class="footer-links__list-item"><a href="http://bit.ly/crtxNCDomain" class="footer-link" target="_blank">Web Domains</a></li>
                   <li class="footer-links__list-item"><a href="http://bit.ly/creatixbluehost" class="footer-link" target="_blank">Web Hosting</a></li>
                   <li class="footer-links__list-item"><a href="<?= $pages->find('roadmapping-session')->url() ?>" class="footer-link">Roadmapping Session</a></li>
+                  <li class="footer-links__list-item"><a href="<?= $pages->find('partnerships')->url() ?>" class="footer-link"><?= $pages->find('partnerships')->title() ?></a></li>
                   
                   <!-- TO DO
                   <li class="footer-links__list-item"><a href="" class="footer-link">Agencies</a></li>

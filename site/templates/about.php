@@ -5,20 +5,17 @@
     <!--About Intro-->
     <div class="row">
         <?php snippet('breadcrumbs'); ?>
+
         <h1 class="title--flex"><?php echo $page->title() ?></h1>
+
         <div class="author-info sml med--col-4 lrg--col-4">
             <img src="<?php echo $site->image($site->authorImg())->url() ?>" alt="" class="author-info__img">
             <h4 class="center author-info__name">
-                <?php echo $site->author() ?>
+                <?php echo $site->author() ?> | Founder
             </h4>
             
             <div class="author-info__links">
-                <h5 class="center author-info__email">
-                    <a href="" class="author-info__link">
-                        <?php echo $site->authorEmail() ?>
-                    </a>
-                </h5>
-                
+
                 <h5 class="center author-info__phone">
                     <a href="" class="author-info__link">
                         <?php echo $site->authorPhone()->kt() ?>
@@ -33,7 +30,7 @@
         <div class="about-description sml med--col-4 lrg--col-4">
             <?php echo $page->description()->kt() ?>
             <a href="<?= $pages->find('contact')->url() ?>"
-                class="btn btn--primary btn--small">
+                class="btn btn--secondary btn--small">
                 Start Your Project Today!
             </a>
         </div>
@@ -70,9 +67,9 @@
             <?php endif ?>
         
             <div class="testimonial__client">
-                <h5 class="testimonial__client-name"><?= $tst->title(); ?></h5>
+                <h5 class="testimonial__name"><?= $tst->title(); ?></h5>
                 
-                <h5 class="testimonial__client-site">La Buena Market
+                <h5 class="testimonial__company">La Buena Market
                 </h5>
         </div>
     </section>
@@ -117,17 +114,17 @@
     <!-- CTA -->
     <div class="row">
         <div class="about-cta sml med--col-6 med--offset-1 lrg--col-6 lrg--offset-3">
-            <h4 class="about-cta__title center">Ready to Create Results for Your Business?</h4>
-            <a href="<?= $pages->find('roadmapping-session')->url() ?>" class="cta btn btn--primary btn--full">Schedule a Roadmapping Session</a>
+            <h3 class="about-cta__title center">Ready to Create Results for Your Business?</h3>
+            <a href="<?= $pages->find('roadmapping-session')->url() ?>" class="cta btn btn--primary btn--center about-cta__btn">Schedule a Roadmapping Session</a>
             <p class="center">Not Ready yet? Check out some <a href="<?php echo $pages->find('case-studies')->url() ?>">Case Studies</a></p>
         </div>
     </div>
     
     <!--About this Site-->
-    <div class="about-site container padding">
+    <!-- <div class="about-site container padding">
         <h5 class="about-site__heading">About this Site</h5>
-        <?php echo $page->aboutSite()->kt() ?>
-    </div>
+        <?php // echo $page->aboutSite()->kt() ?>
+    </div> -->
   </main>
 
 <?php snippet('footer') ?>

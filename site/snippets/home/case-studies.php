@@ -2,7 +2,7 @@
     <h2 class="padding-1 section__title">Case Studies</h2>
     
     <div class="row">
-        <?php foreach(page('case-studies')->children()->visible() as $caseStudy): ?>
+        <?php foreach(page('case-studies')->children()->visible()->limit(2)as $caseStudy): ?>
         <div class="sml med--50 padding-1">
             <div class="case-study__item">
                 <a href="<?php echo $caseStudy->url() ?>" class="case-study__link">

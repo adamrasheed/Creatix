@@ -6,7 +6,7 @@ Author: Adam Rasheed
 
 ----
 
-Description: Creatix is an independant web design and development consultancy by Adam Rasheed.
+Description: Creatix is an independant web design and development consultancy that specializes in eCommerce sites.
 
 ----
 

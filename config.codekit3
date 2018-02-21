@@ -7,7 +7,7 @@
 		"uuidString": "FE75B5E3-8567-4199-8C0F-E696E661E8D9"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26268",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -1166,160 +1166,18 @@
 		"oAP": "\/content\/2-services\/services.txt",
 		"oF": 0
 		},
-	"\/content\/3-case-studies\/1-aaron-valenty\/aaron-valenty-blog-page.png": {
-		"ft": 32768,
-		"iS": 1455892,
-		"oA": 0,
-		"oAP": "\/content\/3-case-studies\/1-aaron-valenty\/aaron-valenty-blog-page.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/content\/3-case-studies\/1-aaron-valenty\/aaron-valenty-email.png": {
-		"ft": 32768,
-		"iS": 134507,
-		"oA": 0,
-		"oAP": "\/content\/3-case-studies\/1-aaron-valenty\/aaron-valenty-email.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/content\/3-case-studies\/1-aaron-valenty\/Aaron-Valenty-featured.png": {
-		"ft": 32768,
-		"iS": 753231,
-		"oA": 0,
-		"oAP": "\/content\/3-case-studies\/1-aaron-valenty\/Aaron-Valenty-featured.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/content\/3-case-studies\/1-aaron-valenty\/Aaron-Valenty-featured@2x.png": {
-		"ft": 32768,
-		"iS": 2595213,
-		"oA": 0,
-		"oAP": "\/content\/3-case-studies\/1-aaron-valenty\/Aaron-Valenty-featured@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/content\/3-case-studies\/1-aaron-valenty\/aaron-valenty-hero.png": {
-		"ft": 32768,
-		"iS": 3040553,
-		"oA": 0,
-		"oAP": "\/content\/3-case-studies\/1-aaron-valenty\/aaron-valenty-hero.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/content\/3-case-studies\/1-aaron-valenty\/aaron-valenty-listings.png": {
-		"ft": 32768,
-		"iS": 2746790,
-		"oA": 0,
-		"oAP": "\/content\/3-case-studies\/1-aaron-valenty\/aaron-valenty-listings.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/content\/3-case-studies\/1-aaron-valenty\/aaron-valenty-site-hero.png": {
-		"ft": 32768,
-		"iS": 7334,
-		"oA": 0,
-		"oAP": "\/content\/3-case-studies\/1-aaron-valenty\/aaron-valenty-site-hero.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/content\/3-case-studies\/1-aaron-valenty\/Aaron-Valenty-Style-Guide.png": {
-		"ft": 32768,
-		"iS": 194249,
-		"oA": 0,
-		"oAP": "\/content\/3-case-studies\/1-aaron-valenty\/Aaron-Valenty-Style-Guide.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/content\/3-case-studies\/1-aaron-valenty\/Aaron-Valenty-Style-Guide@2x.png": {
-		"ft": 32768,
-		"iS": 387143,
-		"oA": 0,
-		"oAP": "\/content\/3-case-studies\/1-aaron-valenty\/Aaron-Valenty-Style-Guide@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/content\/3-case-studies\/1-aaron-valenty\/aaron-valenty-website.jpg": {
-		"ft": 16384,
-		"iS": 1171536,
-		"oA": 0,
-		"oAP": "\/content\/3-case-studies\/1-aaron-valenty\/aaron-valenty-website.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/content\/3-case-studies\/1-aaron-valenty\/Aaron-Valenty-Wireframes.png": {
-		"ft": 32768,
-		"iS": 161043,
-		"oA": 0,
-		"oAP": "\/content\/3-case-studies\/1-aaron-valenty\/Aaron-Valenty-Wireframes.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/content\/3-case-studies\/1-aaron-valenty\/Aaron-Valenty-Wireframes@2x.png": {
-		"ft": 32768,
-		"iS": 347266,
-		"oA": 0,
-		"oAP": "\/content\/3-case-studies\/1-aaron-valenty\/Aaron-Valenty-Wireframes@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/content\/3-case-studies\/1-aaron-valenty\/aaron-valenty-wordpress-dashboard.png": {
-		"ft": 32768,
-		"iS": 871840,
-		"oA": 0,
-		"oAP": "\/content\/3-case-studies\/1-aaron-valenty\/aaron-valenty-wordpress-dashboard.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/content\/3-case-studies\/1-aaron-valenty\/case-study.txt": {
+	"\/content\/3-case-studies\/1-flexrake\/case-study.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/content\/3-case-studies\/1-aaron-valenty\/case-study.txt",
+		"oAP": "\/content\/3-case-studies\/1-flexrake\/case-study.txt",
 		"oF": 0
 		},
-	"\/content\/3-case-studies\/1-aaron-valenty\/Style Tiles@1x.png": {
+	"\/content\/3-case-studies\/1-flexrake\/flexrake-case-study-cover@2x.png": {
 		"ft": 32768,
-		"iS": 506534,
+		"iS": 1412166,
 		"oA": 0,
-		"oAP": "\/content\/3-case-studies\/1-aaron-valenty\/Style Tiles@1x.png",
+		"oAP": "\/content\/3-case-studies\/1-flexrake\/flexrake-case-study-cover@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1460,7 +1318,7 @@
 		},
 	"\/content\/3-case-studies\/2-amla\/AMLA-Registration@2x.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 340774,
 		"oA": 0,
 		"oAP": "\/content\/3-case-studies\/2-amla\/AMLA-Registration@2x.png",
 		"oF": 0,
@@ -1508,6 +1366,166 @@
 		"oA": 2,
 		"oAP": "\/content\/3-case-studies\/2-amla\/case-study.txt",
 		"oF": 0
+		},
+	"\/content\/3-case-studies\/3-aaron-valenty\/aaron-valenty-blog-page.png": {
+		"ft": 32768,
+		"iS": 1455892,
+		"oA": 0,
+		"oAP": "\/content\/3-case-studies\/3-aaron-valenty\/aaron-valenty-blog-page.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-case-studies\/3-aaron-valenty\/aaron-valenty-email.png": {
+		"ft": 32768,
+		"iS": 134507,
+		"oA": 0,
+		"oAP": "\/content\/3-case-studies\/3-aaron-valenty\/aaron-valenty-email.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-case-studies\/3-aaron-valenty\/Aaron-Valenty-featured.png": {
+		"ft": 32768,
+		"iS": 753231,
+		"oA": 0,
+		"oAP": "\/content\/3-case-studies\/3-aaron-valenty\/Aaron-Valenty-featured.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-case-studies\/3-aaron-valenty\/Aaron-Valenty-featured@2x.png": {
+		"ft": 32768,
+		"iS": 691479,
+		"oA": 0,
+		"oAP": "\/content\/3-case-studies\/3-aaron-valenty\/Aaron-Valenty-featured@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-case-studies\/3-aaron-valenty\/aaron-valenty-hero.png": {
+		"ft": 32768,
+		"iS": 3040553,
+		"oA": 0,
+		"oAP": "\/content\/3-case-studies\/3-aaron-valenty\/aaron-valenty-hero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-case-studies\/3-aaron-valenty\/aaron-valenty-listings.png": {
+		"ft": 32768,
+		"iS": 2746790,
+		"oA": 0,
+		"oAP": "\/content\/3-case-studies\/3-aaron-valenty\/aaron-valenty-listings.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-case-studies\/3-aaron-valenty\/aaron-valenty-site-hero.png": {
+		"ft": 32768,
+		"iS": 7334,
+		"oA": 0,
+		"oAP": "\/content\/3-case-studies\/3-aaron-valenty\/aaron-valenty-site-hero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-case-studies\/3-aaron-valenty\/Aaron-Valenty-Style-Guide.png": {
+		"ft": 32768,
+		"iS": 194249,
+		"oA": 0,
+		"oAP": "\/content\/3-case-studies\/3-aaron-valenty\/Aaron-Valenty-Style-Guide.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-case-studies\/3-aaron-valenty\/Aaron-Valenty-Style-Guide@2x.png": {
+		"ft": 32768,
+		"iS": 387143,
+		"oA": 0,
+		"oAP": "\/content\/3-case-studies\/3-aaron-valenty\/Aaron-Valenty-Style-Guide@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-case-studies\/3-aaron-valenty\/aaron-valenty-website.jpg": {
+		"ft": 16384,
+		"iS": 1171536,
+		"oA": 0,
+		"oAP": "\/content\/3-case-studies\/3-aaron-valenty\/aaron-valenty-website.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/content\/3-case-studies\/3-aaron-valenty\/Aaron-Valenty-Wireframes.png": {
+		"ft": 32768,
+		"iS": 161043,
+		"oA": 0,
+		"oAP": "\/content\/3-case-studies\/3-aaron-valenty\/Aaron-Valenty-Wireframes.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-case-studies\/3-aaron-valenty\/Aaron-Valenty-Wireframes@2x.png": {
+		"ft": 32768,
+		"iS": 347266,
+		"oA": 0,
+		"oAP": "\/content\/3-case-studies\/3-aaron-valenty\/Aaron-Valenty-Wireframes@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-case-studies\/3-aaron-valenty\/aaron-valenty-wordpress-dashboard.png": {
+		"ft": 32768,
+		"iS": 871840,
+		"oA": 0,
+		"oAP": "\/content\/3-case-studies\/3-aaron-valenty\/aaron-valenty-wordpress-dashboard.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/content\/3-case-studies\/3-aaron-valenty\/case-study.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/3-case-studies\/3-aaron-valenty\/case-study.txt",
+		"oF": 0
+		},
+	"\/content\/3-case-studies\/3-aaron-valenty\/Style Tiles@1x.png": {
+		"ft": 32768,
+		"iS": 506534,
+		"oA": 0,
+		"oAP": "\/content\/3-case-studies\/3-aaron-valenty\/Style Tiles@1x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/content\/3-case-studies\/case-studies.txt": {
 		"cB": 0,
@@ -1737,6 +1755,24 @@
 		"oAP": "\/content\/orange-county-web-design\/default.txt",
 		"oF": 0
 		},
+	"\/content\/partnerships\/default.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/partnerships\/default.txt",
+		"oF": 0
+		},
+	"\/content\/partnerships\/zapcrunch.png": {
+		"ft": 32768,
+		"iS": 32114,
+		"oA": 0,
+		"oAP": "\/content\/partnerships\/zapcrunch.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/content\/resources\/default.txt": {
 		"cB": 0,
 		"ft": 8192,
@@ -1829,6 +1865,23 @@
 		"oA": 2,
 		"oAP": "\/content\/testimonials\/testimonials.txt",
 		"oF": 0
+		},
+	"\/content\/testimonials\/tom-perkins\/testimonial.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/testimonials\/tom-perkins\/testimonial.txt",
+		"oF": 0
+		},
+	"\/content\/testimonials\/tom-perkins\/tom-perkins.jpg": {
+		"ft": 16384,
+		"iS": 1321755,
+		"oA": 0,
+		"oAP": "\/content\/testimonials\/tom-perkins\/tom-perkins.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/index.php": {
 		"cB": 0,
@@ -7828,6 +7881,20 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/site\/accounts\/.logins": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/accounts\/.logins",
+		"oF": 0
+		},
+	"\/site\/accounts\/adamrasheed.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/accounts\/adamrasheed.php",
+		"oF": 0
+		},
 	"\/site\/accounts\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -8877,6 +8944,13 @@
 		"oAP": "\/site\/snippets\/header\/mob-nav.php",
 		"oF": 0
 		},
+	"\/site\/snippets\/home\/about-2.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/snippets\/home\/about-2.php",
+		"oF": 0
+		},
 	"\/site\/snippets\/home\/about.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -9143,6 +9217,16 @@
 		"oAP": "\/site\/templates\/services.php",
 		"oF": 0
 		},
+	"\/thumbs\/adam-rasheed-headshot-400-75x75.jpg": {
+		"ft": 16384,
+		"iS": 2304,
+		"oA": 0,
+		"oAP": "\/thumbs\/adam-rasheed-headshot-400-75x75.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/thumbs\/case-studies\/aaron-valenty\/aaron-valenty-featured-1064x532.png": {
 		"ft": 32768,
 		"iS": 270765,
@@ -9356,6 +9440,83 @@
 		"oAP": "\/thumbs\/case-studies\/aaron-valenty\/Aaron-Valenty-featured.png-ff89ba72f2baa844cc9aeb32dcd74846.imagesetcache",
 		"oF": 0
 		},
+	"\/thumbs\/case-studies\/amla\/amla-admin-spotlight-75x75.png": {
+		"ft": 32768,
+		"iS": 1070,
+		"oA": 0,
+		"oAP": "\/thumbs\/case-studies\/amla\/amla-admin-spotlight-75x75.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/thumbs\/case-studies\/amla\/amla-blog-75x75.png": {
+		"ft": 32768,
+		"iS": 8167,
+		"oA": 0,
+		"oAP": "\/thumbs\/case-studies\/amla\/amla-blog-75x75.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/thumbs\/case-studies\/amla\/amla-blog@2x-75x75.png": {
+		"ft": 32768,
+		"iS": 8186,
+		"oA": 0,
+		"oAP": "\/thumbs\/case-studies\/amla\/amla-blog@2x-75x75.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/thumbs\/case-studies\/amla\/amla-directory-75x75.png": {
+		"ft": 32768,
+		"iS": 4635,
+		"oA": 0,
+		"oAP": "\/thumbs\/case-studies\/amla\/amla-directory-75x75.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/thumbs\/case-studies\/amla\/amla-events-75x75.png": {
+		"ft": 32768,
+		"iS": 5184,
+		"oA": 0,
+		"oAP": "\/thumbs\/case-studies\/amla\/amla-events-75x75.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/thumbs\/case-studies\/amla\/amla-events-blog-75x75.png": {
+		"ft": 32768,
+		"iS": 8279,
+		"oA": 0,
+		"oAP": "\/thumbs\/case-studies\/amla\/amla-events-blog-75x75.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/thumbs\/case-studies\/amla\/amla-events@2x-75x75.png": {
+		"ft": 32768,
+		"iS": 5118,
+		"oA": 0,
+		"oAP": "\/thumbs\/case-studies\/amla\/amla-events@2x-75x75.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/thumbs\/case-studies\/amla\/amla-featured-image-1064x532.png": {
 		"ft": 32768,
 		"iS": 558056,
@@ -9477,6 +9638,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/thumbs\/case-studies\/amla\/amla-featured-image-75x75.png": {
+		"ft": 32768,
+		"iS": 8835,
+		"oA": 0,
+		"oAP": "\/thumbs\/case-studies\/amla\/amla-featured-image-75x75.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/thumbs\/case-studies\/amla\/amla-featured-image-900x450.png": {
 		"ft": 32768,
 		"iS": 365358,
@@ -9569,12 +9741,235 @@
 		"oAP": "\/thumbs\/case-studies\/amla\/AMLA-featured-Image.png-fd8f02e73b98159d86fe3452aa2c48ec.imagesetcache",
 		"oF": 0
 		},
+	"\/thumbs\/case-studies\/amla\/amla-featured-image@2x-75x75.png": {
+		"ft": 32768,
+		"iS": 8832,
+		"oA": 0,
+		"oAP": "\/thumbs\/case-studies\/amla\/amla-featured-image@2x-75x75.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/thumbs\/case-studies\/amla\/amla-member-spotlight-75x75.png": {
+		"ft": 32768,
+		"iS": 5659,
+		"oA": 0,
+		"oAP": "\/thumbs\/case-studies\/amla\/amla-member-spotlight-75x75.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/thumbs\/case-studies\/amla\/amla-member-spotlight@2x-75x75.png": {
+		"ft": 32768,
+		"iS": 5590,
+		"oA": 0,
+		"oAP": "\/thumbs\/case-studies\/amla\/amla-member-spotlight@2x-75x75.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/thumbs\/case-studies\/amla\/amla-registration-75x75.png": {
+		"ft": 32768,
+		"iS": 4466,
+		"oA": 0,
+		"oAP": "\/thumbs\/case-studies\/amla\/amla-registration-75x75.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/thumbs\/case-studies\/amla\/amla-registration@2x-75x75.png": {
+		"ft": 32768,
+		"iS": 4458,
+		"oA": 0,
+		"oAP": "\/thumbs\/case-studies\/amla\/amla-registration@2x-75x75.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/thumbs\/case-studies\/amla\/amla-spotlight-2-75x75.png": {
+		"ft": 32768,
+		"iS": 4896,
+		"oA": 0,
+		"oAP": "\/thumbs\/case-studies\/amla\/amla-spotlight-2-75x75.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/thumbs\/case-studies\/amla\/amla-style-guide-75x75.png": {
+		"ft": 32768,
+		"iS": 3314,
+		"oA": 0,
+		"oAP": "\/thumbs\/case-studies\/amla\/amla-style-guide-75x75.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/thumbs\/case-studies\/amla\/amla-style-guide@2x-75x75.png": {
+		"ft": 32768,
+		"iS": 3279,
+		"oA": 0,
+		"oAP": "\/thumbs\/case-studies\/amla\/amla-style-guide@2x-75x75.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/thumbs\/case-studies\/flexrake\/flexrake-case-study-cover@2x-1064x532.png": {
+		"ft": 32768,
+		"iS": 82073,
+		"oA": 0,
+		"oAP": "\/thumbs\/case-studies\/flexrake\/flexrake-case-study-cover@2x-1064x532.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/thumbs\/case-studies\/flexrake\/flexrake-case-study-cover@2x-240x120.png": {
+		"ft": 32768,
+		"iS": 41345,
+		"oA": 0,
+		"oAP": "\/thumbs\/case-studies\/flexrake\/flexrake-case-study-cover@2x-240x120.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/thumbs\/case-studies\/flexrake\/flexrake-case-study-cover@2x-538x269.png": {
+		"ft": 32768,
+		"iS": 194335,
+		"oA": 0,
+		"oAP": "\/thumbs\/case-studies\/flexrake\/flexrake-case-study-cover@2x-538x269.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/thumbs\/case-studies\/flexrake\/flexrake-case-study-cover@2x-75x75.png": {
+		"ft": 32768,
+		"iS": 9867,
+		"oA": 0,
+		"oAP": "\/thumbs\/case-studies\/flexrake\/flexrake-case-study-cover@2x-75x75.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/thumbs\/home\/headshot-75x75.jpg": {
+		"ft": 16384,
+		"iS": 2303,
+		"oA": 0,
+		"oAP": "\/thumbs\/home\/headshot-75x75.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/thumbs\/home\/headshot@2x-75x75.jpg": {
+		"ft": 16384,
+		"iS": 2299,
+		"oA": 0,
+		"oAP": "\/thumbs\/home\/headshot@2x-75x75.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/thumbs\/home\/hero-background-75x75.jpg": {
+		"ft": 16384,
+		"iS": 2950,
+		"oA": 0,
+		"oAP": "\/thumbs\/home\/hero-background-75x75.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/thumbs\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/thumbs\/index.html",
 		"oF": 0
+		},
+	"\/thumbs\/partnerships\/zapcrunch-75x75.png": {
+		"ft": 32768,
+		"iS": 6177,
+		"oA": 0,
+		"oAP": "\/thumbs\/partnerships\/zapcrunch-75x75.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/thumbs\/services\/online-marketing\/gp8blyataa0-thomas-lefebvre-75x75.jpg": {
+		"ft": 16384,
+		"iS": 2289,
+		"oA": 0,
+		"oAP": "\/thumbs\/services\/online-marketing\/gp8blyataa0-thomas-lefebvre-75x75.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/thumbs\/services\/roadmapping-session\/gtcwbwbznpm-john-mark-kuznietsov-75x75.jpg": {
+		"ft": 16384,
+		"iS": 3135,
+		"oA": 0,
+		"oAP": "\/thumbs\/services\/roadmapping-session\/gtcwbwbznpm-john-mark-kuznietsov-75x75.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/thumbs\/services\/web-design\/6g0kjwnbhxg-luis-llerena-75x75.jpg": {
+		"ft": 16384,
+		"iS": 3124,
+		"oA": 0,
+		"oAP": "\/thumbs\/services\/web-design\/6g0kjwnbhxg-luis-llerena-75x75.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/thumbs\/services\/web-design\/photo-1472647077244-23bed45e50d9-75x75.jpg": {
+		"ft": 16384,
+		"iS": 3067,
+		"oA": 0,
+		"oAP": "\/thumbs\/services\/web-design\/photo-1472647077244-23bed45e50d9-75x75.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/thumbs\/testimonials\/tom-perkins\/tom-perkins-75x75.jpg": {
+		"ft": 16384,
+		"iS": 3097,
+		"oA": 0,
+		"oAP": "\/thumbs\/testimonials\/tom-perkins\/tom-perkins-75x75.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		}
 	},
 "hooks": [
@@ -9593,6 +9988,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -10156,6 +10552,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,

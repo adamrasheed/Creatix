@@ -8,57 +8,79 @@
     }
 
     &__body {
-        font-family: $body;
+        font-family: $font-family-body;
         font-size: $font-size-large;
         line-height: 1.75rem;
         text-align: center;
         margin: 0 0 1.5rem;
+
         p {
             @extend .testimonial__body;
-            margin: 0 0 1rem} 
+            margin: 0 0 1rem;
+
+            &:before{
+                content: '“ ';
+                display: inline-block;
+            }
+            &:after{
+                content: ' ”';
+                display: inline-block;
+            }
+        }
     }
     &__client {
         display: flex;
         justify-content: center;
-        flex-flow: row wrap;
+        flex-flow: row nowrap;
         align-items: flex-start;
     }
+
     &__image {
         display: inline-block;
         max-width: 6rem;
         height: auto;
-        margin: 0 auto 1.5rem;
+        margin: 0 auto 0.5rem;
         border-radius: 50%;
     }
 
-    &__client-name, &__client-link {
+    &__name, &__company {
         color: $text;
+        font-family: $font-family-headings;
+        font-size: $font-size-base;
+        font-weight: $font-weight-bold;
+        line-height: 1;
+        margin: 0;
         text-align: center;
         text-decoration: none;
     }
 
-    &__client-link{
-        transition: map-get($transition, short);
-        max-width: 6rem;
+    &__company{
+        max-width: 11rem;
+
+        &:before {
+            content: '|';
+            display: inline;
+            margin: 0 .5rem;
+            font-family: $font-family-headings;
+            font-weight: bold;
+            font-size: inherit;
+            color: $text;
+            opacity: 1.0
+        }
+
+        &--link{
+            display: block;
+            color: $light-text;
+            transition: map-get($transition, short);
+
+            &:hover{
+                color: $text;
+            }
+        }
     }
 
     &__client-name, &__client-site {
         margin: 0;
         text-align: center;
-    }
-
-    &__client-site {
-        &:before {
-            content: '|';
-            margin: 0 1rem;
-            font-family: $headings;
-            font-weight: bold;
-            font-size: inherit;
-            color: $light-text;
-        }
-    }
-    
-    &__client-link:hover {
-        color: $light-text;
     }
 }

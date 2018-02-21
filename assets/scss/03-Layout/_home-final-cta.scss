@@ -14,6 +14,7 @@
     @med #{$med-screen} {padding: 4rem 0}
     @media #{$lrg} {padding: 8rem 0}
 }
+
 .final-CTA {
     padding: 0 1rem;
     display: flex;
@@ -30,9 +31,13 @@
             margin-bottom: 1rem;
         }
         &__btn {
-            padding: 1.25rem;
+            padding: .75rem 1.25rem;
             width: 32rem;
-            margin-bottom: 1rem
+            margin-bottom: 1rem;
+            font-variant-caps: all-small-caps;
+            font-size: 1.25rem;
+            font-weight: 600;
+            max-width: fit-content;
         }
     }
 }

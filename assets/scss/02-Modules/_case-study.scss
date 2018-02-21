@@ -7,6 +7,10 @@
         overflow: hidden;
         height: 50vh;
         margin-bottom: 1rem;
+
+        &--stacked{
+            margin-bottom: 2rem;
+        }
     }
     &__link {
         color: white;
@@ -49,7 +53,7 @@
     &__category {
         display: inline-block;
         font-size: 0.75rem;
-        font-family: $headings;
+        font-family: $font-family-headings;
         text-transform: uppercase;
         letter-spacing: .05em;
         &:after {

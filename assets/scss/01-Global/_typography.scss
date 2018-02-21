@@ -14,7 +14,7 @@
 
 body {
     color: $text;
-    font-family: $body;
+    font-family: $font-family-body;
     font-size: $font-size-base;
     font-weight: normal;
     line-height: 1.5;
@@ -27,7 +27,7 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: $headings;
+    font-family: $font-family-headings;
     font-weight: 800;
     line-height: 1.3;
 }
@@ -49,12 +49,19 @@ h2 {
     margin-bottom: 1rem;
 }
 
+h2 + h3 {
+    margin-top: .5rem;
+}
+
 h3 {
     font-size: 1.44em;
     line-height: 1.75rem;
     margin-bottom: .25rem;
 }
 
+h3 + h4 {
+    margin-top: .5rem;
+}
 h4 {
     font-size: 1.2rem;
     line-height: 1.5rem;
@@ -82,7 +89,7 @@ ul {
 
 
 label {
-    font-family: $headings;
+    font-family: $font-family-headings;
     font-size: .75rem;
     line-height: 1rem;
     opacity: .8;
@@ -127,26 +134,26 @@ figcaption {
     h1, h2, h3, h4 {font-weight: 600;}
 
     h1 {
-        font-size: 2.8rem;
-        line-height: 3.25rem;
-        margin-bottom: 1.5rem;
+        font-size: 2rem;
+        line-height: 2.25rem;
+        margin-bottom: 1rem;
     }
 
     h2 {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         line-height: 2.25rem;
-        margin-bottom: .5rem;
+        margin-bottom: 0;
     }
 
     h3 {
-        font-size: 1.25rem;
-        line-height: 1.5rem;
+        font-size: 1.125rem;
+        line-height: 1.25rem;
         margin-bottom: .25rem;
     }
 
     h4 {
-        font-size: 1.125rem;
-        line-height: 1.5rem;
+        font-size: 1rem;
+        line-height: 1.125rem;
         //margin: 0 0 .25rem;
     }
 

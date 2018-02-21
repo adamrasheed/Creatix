@@ -16,7 +16,7 @@
 
     &__next, &__prev {
         font-size: $font-size-extra-small;
-        font-family: $headings;
+        font-family: $font-family-headings;
         font-weight: 800;
         line-height: 1;
         text-transform: uppercase;
@@ -39,7 +39,7 @@
     &__title{
         display: block;
         margin-bottom: .25rem;
-        font-family: $headings;
+        font-family: $font-family-headings;
         letter-spacing: .05em;
         font-family: 1rem;
     }

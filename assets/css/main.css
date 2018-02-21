@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
     * Hi there, 
     * I'm using SCSS to style the site,
@@ -102,10 +103,16 @@ h2 {
   line-height: 2rem;
   margin-bottom: 1rem; }
 
+h2 + h3 {
+  margin-top: .5rem; }
+
 h3 {
   font-size: 1.44em;
   line-height: 1.75rem;
   margin-bottom: .25rem; }
+
+h3 + h4 {
+  margin-top: .5rem; }
 
 h4 {
   font-size: 1.2rem;
@@ -169,20 +176,20 @@ figcaption {
   h1, h2, h3, h4 {
     font-weight: 600; }
   h1 {
-    font-size: 2.8rem;
-    line-height: 3.25rem;
-    margin-bottom: 1.5rem; }
-  h2 {
-    font-size: 1.75rem;
+    font-size: 2rem;
     line-height: 2.25rem;
-    margin-bottom: .5rem; }
+    margin-bottom: 1rem; }
+  h2 {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    margin-bottom: 0; }
   h3 {
-    font-size: 1.25rem;
-    line-height: 1.5rem;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
     margin-bottom: .25rem; }
   h4 {
-    font-size: 1.125rem;
-    line-height: 1.5rem; }
+    font-size: 1rem;
+    line-height: 1.125rem; }
   figcaption {
     margin-bottom: 2rem; } }
 
@@ -475,8 +482,6 @@ body {
     flex: 1 100%; }
   body .main {
     flex: 100%; }
-  body .main--blog h2, body .main--case-study h2, body .main--narrow h2 {
-    margin-bottom: .5rem; }
   body .main--blog h3, body .main--case-study h3, body .main--narrow h3 {
     margin-bottom: .25rem; }
   body .main--blog figure, body .main--case-study figure, body .main--narrow figure {
@@ -684,9 +689,13 @@ article p {
 article img {
   margin: 0 0 1rem; }
 
-@media only screen and (min-width: 60rem) {
-  .article__title {
-    margin-bottom: 1rem; } }
+.article__title {
+  font-weight: 900; }
+  @media only screen and (min-width: 60rem) {
+    .article__title {
+      margin-bottom: 0.5rem;
+      font-size: 2rem;
+      line-height: 2.75rem; } }
 
 .article__title-link {
   color: #333333;
@@ -721,6 +730,10 @@ article img {
   .article__share-link--twt {
     color: #1da1f2; }
 
+.article-header img {
+  display: block;
+  margin-bottom: 0.5rem; }
+
 .back-to-top {
   background: linear-gradient(-180deg, #FF4C4C 0%, #E84545 100%);
   width: 2.25rem;
@@ -747,9 +760,9 @@ article img {
 
 .btn {
   font-family: "Avenir", "GothamBold", "Montserrat", sans-serif;
-  font-size: 1rem;
-  font-weight: 500;
-  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-weight: 600;
+  font-variant-caps: all-small-caps;
   color: white;
   cursor: pointer;
   display: inline-block;
@@ -759,19 +772,24 @@ article img {
   text-decoration: none;
   line-height: 1;
   letter-spacing: .1em;
-  padding: 1rem 2rem;
-  margin: 0 0 1rem;
+  padding: .35rem 1.5rem .5rem;
+  max-width: max-content;
+  margin: 0 auto 1rem;
   transform: translateY(-4px);
   transition: all 0.125s ease-in-out; }
   .btn:hover, .btn:focus {
     outline: none;
     transform: translateY(-2px); }
   .btn--full {
-    display: block; }
+    display: block;
+    max-width: none; }
   .btn--small {
-    font-size: 0.75rem;
-    letter-spacing: .15em;
-    padding: .875rem 1.5rem; }
+    font-size: 16px;
+    padding: .35rem .75rem .5rem; }
+  .btn--center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
   .btn--primary, .btn--primary-gradient {
     background-color: #FAD961;
     background-image: linear-gradient(225deg, #FAD961 0%, #F76B1C 99%);
@@ -999,43 +1017,57 @@ article img {
   margin: 0 0 1.5rem; }
   .testimonial__body p {
     margin: 0 0 1rem; }
+    .testimonial__body p:before {
+      content: '“ ';
+      display: inline-block; }
+    .testimonial__body p:after {
+      content: ' ”';
+      display: inline-block; }
 
 .testimonial__client {
   display: flex;
   justify-content: center;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   align-items: flex-start; }
 
 .testimonial__image {
   display: inline-block;
   max-width: 6rem;
   height: auto;
-  margin: 0 auto 1.5rem;
+  margin: 0 auto 0.5rem;
   border-radius: 50%; }
 
-.testimonial__client-name, .testimonial__client-link {
+.testimonial__name, .testimonial__company {
   color: #333333;
+  font-family: "Avenir", "GothamMedium", "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0;
   text-align: center;
   text-decoration: none; }
 
-.testimonial__client-link {
-  transition: all 0.125s ease-in-out;
-  max-width: 6rem; }
+.testimonial__company {
+  max-width: 11rem; }
+  .testimonial__company:before {
+    content: '|';
+    display: inline;
+    margin: 0 .5rem;
+    font-family: "Avenir", "GothamMedium", "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: inherit;
+    color: #333333;
+    opacity: 1.0; }
+  .testimonial__company--link {
+    display: block;
+    color: #9B9B9B;
+    transition: all 0.125s ease-in-out; }
+    .testimonial__company--link:hover {
+      color: #333333; }
 
 .testimonial__client-name, .testimonial__client-site {
   margin: 0;
   text-align: center; }
-
-.testimonial__client-site:before {
-  content: '|';
-  margin: 0 1rem;
-  font-family: "Avenir", "GothamMedium", "Montserrat", sans-serif;
-  font-weight: bold;
-  font-size: inherit;
-  color: #9B9B9B; }
-
-.testimonial__client-link:hover {
-  color: #9B9B9B; }
 
 .case-study__item {
   margin: 0 auto;
@@ -1044,6 +1076,8 @@ article img {
   overflow: hidden;
   height: 50vh;
   margin-bottom: 1rem; }
+  .case-study__item--stacked {
+    margin-bottom: 2rem; }
 
 .case-study__link {
   color: white;
@@ -1605,9 +1639,13 @@ section {
     .final-CTA__title {
       margin-bottom: 1rem; }
     .final-CTA__btn {
-      padding: 1.25rem;
+      padding: .75rem 1.25rem;
       width: 32rem;
-      margin-bottom: 1rem; } }
+      margin-bottom: 1rem;
+      font-variant-caps: all-small-caps;
+      font-size: 1.25rem;
+      font-weight: 600;
+      max-width: fit-content; } }
 
 .author-info {
   margin: 0 auto 2rem;
@@ -1619,6 +1657,8 @@ section {
     justify-content: center;
     flex-flow: column nowrap;
     margin-bottom: .75rem; }
+  .author-info__name {
+    margin-bottom: .25rem; }
   .author-info__phone, .author-info__email {
     padding: 0 .75rem;
     margin: 0 auto;
@@ -1693,6 +1733,8 @@ section {
   .about-cta__title {
     margin: 0 0 1rem;
     font-weight: bold; }
+  .about-cta__btn {
+    margin-bottom: 1rem; }
 
 @media only screen and (min-width: 45rem) {
   .author-info {

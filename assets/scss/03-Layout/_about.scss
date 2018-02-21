@@ -16,6 +16,10 @@
         flex-flow: column nowrap;
         margin-bottom: .75rem;
     }
+
+    &__name{
+        margin-bottom: .25rem;
+    }
     &__phone, &__email {
         padding: 0 .75rem;
         margin: 0 auto;
@@ -85,9 +89,14 @@
 .about-cta {
     @extend .section-margin;
     padding: 0 1rem;
+
     &__title {
         margin: 0 0 1rem;
         font-weight: bold;
+    }
+
+    &__btn{
+        margin-bottom: 1rem;
     }
 }
 
