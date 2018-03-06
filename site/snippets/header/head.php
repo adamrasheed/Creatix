@@ -17,7 +17,9 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- Font Awesome -->
-    <script src="https://use.fontawesome.com/aa889b8efb.js"></script>
+    <!-- <script src="https://use.fontawesome.com/aa889b8efb.js"></script> -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <?= js('assets/js/fontawesome-all.min.js', ['defer'=> true]) ?>
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700|Montserrat:400,700" rel="stylesheet">
@@ -36,6 +38,6 @@
 	      heap.load("863430558");
   </script>
 
-  <?= js('assets/plugins/imageset/js/dist/imageset.js') ?>
+  <?= js('plugins/imageset/js/dist/imageset.js', true) ?>
 
 </head>

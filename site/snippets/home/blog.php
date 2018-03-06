@@ -1,6 +1,6 @@
 <section class="section-blog">
     <div class="row padding-1">
-        <h2 class="section-blog__title">Latest Blog Articles</h2>
+        <h2 class="section__title section-blog__title">Latest Blog Articles</h2>
         
         <?php foreach(page('blog')->children()->limit(2)->flip() as $article): ?>
 

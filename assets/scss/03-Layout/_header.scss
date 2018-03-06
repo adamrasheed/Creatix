@@ -19,6 +19,10 @@
         font-size: 2rem;
         color: $text;
         display: block;
+
+        &--hero{
+            color: white;
+        }
     }
 
     &__menu-text {

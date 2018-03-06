@@ -9,14 +9,14 @@
     <?php endif ?>
 
     <?php if($sh = $page->subheadline()): ?>
-        <h4 class="hero__subheading white"><?= $sh ?></h4>
+        <h3 class="hero__subheading white"><?= $sh ?></h3>
     <?php else: ?>
-        <h4 class="hero__subheading white">Custom Websites for Your Small Business</h4>
+        <h3 class="hero__subheading white">Custom Websites for Your Small Business</h3>
     <?php endif ?>
 
     <?php if($cta = $page->ctaText()): ?>
         <a href="<?php echo $pages->find('contact')->url() ?>" class="hero__cta btn btn--primary cta">
-        <?= $cta ?><i class="fa fa-caret-right hero__cta-icon" aria-hidden="true"></i>
+        <?= $cta ?><i class="fal fa-chevron-right" style="font-size: 1.125rem; padding-left: .25rem; line-height: 1; transform: translateY(.125rem);"></i></i>
         </a>
     <?php else: ?>
         <a href="<?php echo $pages->find('contact')->url() ?>" class="hero__cta btn btn--primary cta">Learn More</a>

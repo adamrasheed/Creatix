@@ -34,8 +34,8 @@
     }
     &__video {display: none}
 
-    &__headline {margin: 0 0 1rem;}
-    &__subheading {margin: 0 0 1.5rem;}
+    &__headline {margin: 0 0 0.75rem; line-height: 1.25}
+    &__subheading {margin: 0 0 1.5rem; line-height: 1.5}
     
     svg #Logo-Black {fill: white}
     #hamburger, #hamburger i {color: white}
@@ -67,7 +67,7 @@
             max-width: 29rem
         }
         padding: 0 0 2rem;
-        &__subheading {margin: 0 0 2rem}
+        &__subheading {margin: 0 0 1rem}
         &__video-player {height: 18rem}
         &__cta {max-width: calc(50% - 2rem)}
     }

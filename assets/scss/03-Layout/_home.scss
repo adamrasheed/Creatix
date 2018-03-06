@@ -57,6 +57,12 @@
     &__title {flex: 100%}
 }
 
+.section-blog, .section-services{
+    &__title{
+        // margin-bottom: .5rem;
+    }
+}
+
 @media #{$lrg} {
     .content-container {
         max-width: $container-width;

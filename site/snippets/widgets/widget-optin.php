@@ -1,7 +1,7 @@
 <div class="widget widget-cta--primary">
-    <h4 class="widget__title">
+    <h3 class="widget__title">
         10 Must-Have Website Improvements to Get More Customers
-    </h4>
+    </h3>
     
     <p class="widget__text">
         Sign Up Below to Get the Free 5-Part Email Course delivered straight to your inbox.

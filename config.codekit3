@@ -7,7 +7,7 @@
 		"uuidString": "FE75B5E3-8567-4199-8C0F-E696E661E8D9"
 		}
 	],
-"creatorBuild": "26268",
+"creatorBuild": "26330",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -52,6 +52,16 @@
 		"oA": 2,
 		"oAP": "\/assets\/avatars\/index.html",
 		"oF": 0
+		},
+	"\/assets\/css\/fa-svg-with-js.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/fa-svg-with-js-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/assets\/css\/index.css": {
 		"aP": 1,
@@ -346,6 +356,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/js\/fontawesome-all.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/fontawesome-all.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/js\/main.js": {
 		"ft": 64,
 		"ma": 0,
@@ -494,6 +514,19 @@
 		"oA": 1,
 		"oAP": "\/assets\/scss\/.sass-cache\/d2c2f37bb5e8f931b242a8dc0e9c8b3e7e70218b\/_social.scssc",
 		"oF": 0
+		},
+	"\/assets\/scss\/01-Global\/_animation.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/css\/_animation.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/assets\/scss\/01-Global\/_grid.scss": {
 		"aP": 0,
@@ -972,6 +1005,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/scss\/css\/_home.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/04-Page\/_partnerships.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/css\/_partnerships.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1755,12 +1801,22 @@
 		"oAP": "\/content\/orange-county-web-design\/default.txt",
 		"oF": 0
 		},
-	"\/content\/partnerships\/default.txt": {
+	"\/content\/partnerships\/partnerships.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/content\/partnerships\/default.txt",
+		"oAP": "\/content\/partnerships\/partnerships.txt",
 		"oF": 0
+		},
+	"\/content\/partnerships\/profile.jpg": {
+		"ft": 16384,
+		"iS": 333739,
+		"oA": 0,
+		"oAP": "\/content\/partnerships\/profile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/content\/partnerships\/zapcrunch.png": {
 		"ft": 32768,
@@ -7965,6 +8021,20 @@
 		"oAP": "\/site\/blueprints\/home.yml",
 		"oF": 0
 		},
+	"\/site\/blueprints\/page-narrow.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/page-narrow.yml",
+		"oF": 0
+		},
+	"\/site\/blueprints\/partnerships.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/blueprints\/partnerships.yml",
+		"oF": 0
+		},
 	"\/site\/blueprints\/process.yml": {
 		"cB": 0,
 		"ft": 8192,
@@ -9077,6 +9147,13 @@
 		"oAP": "\/site\/snippets\/widgets\/aff-convertkit.php",
 		"oF": 0
 		},
+	"\/site\/snippets\/widgets\/blog-posts.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/snippets\/widgets\/blog-posts.php",
+		"oF": 0
+		},
 	"\/site\/snippets\/widgets\/resources.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -9154,6 +9231,20 @@
 		"oAP": "\/site\/templates\/home.php",
 		"oF": 0
 		},
+	"\/site\/templates\/page-narrow.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/templates\/page-narrow.php",
+		"oF": 0
+		},
+	"\/site\/templates\/partnerships.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/site\/templates\/partnerships.php",
+		"oF": 0
+		},
 	"\/site\/templates\/post.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -9216,6 +9307,26 @@
 		"oA": 2,
 		"oAP": "\/site\/templates\/services.php",
 		"oF": 0
+		},
+	"\/thumbs\/about\/photo-1472647077244-23bed45e50d9-75x75.jpg": {
+		"ft": 16384,
+		"iS": 3067,
+		"oA": 0,
+		"oAP": "\/thumbs\/about\/photo-1472647077244-23bed45e50d9-75x75.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/thumbs\/about\/raid-sara-la-buena-market-75x75.jpg": {
+		"ft": 16384,
+		"iS": 4299,
+		"oA": 0,
+		"oAP": "\/thumbs\/about\/raid-sara-la-buena-market-75x75.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/thumbs\/adam-rasheed-headshot-400-75x75.jpg": {
 		"ft": 16384,
@@ -9910,6 +10021,16 @@
 		"oAP": "\/thumbs\/index.html",
 		"oF": 0
 		},
+	"\/thumbs\/partnerships\/profile-75x75.jpg": {
+		"ft": 16384,
+		"iS": 3393,
+		"oA": 0,
+		"oAP": "\/thumbs\/partnerships\/profile-75x75.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/thumbs\/partnerships\/zapcrunch-75x75.png": {
 		"ft": 32768,
 		"iS": 6177,
@@ -9919,6 +10040,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/thumbs\/roadmapping-session\/roadmapping-75x75.jpg": {
+		"ft": 16384,
+		"iS": 3469,
+		"oA": 0,
+		"oAP": "\/thumbs\/roadmapping-session\/roadmapping-75x75.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/thumbs\/services\/online-marketing\/gp8blyataa0-thomas-lefebvre-75x75.jpg": {
@@ -9956,6 +10087,26 @@
 		"iS": 3067,
 		"oA": 0,
 		"oAP": "\/thumbs\/services\/web-design\/photo-1472647077244-23bed45e50d9-75x75.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/thumbs\/testimonials\/tom-perkins\/tom-perkins-192x192.jpg": {
+		"ft": 16384,
+		"iS": 13621,
+		"oA": 0,
+		"oAP": "\/thumbs\/testimonials\/tom-perkins\/tom-perkins-192x192.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/thumbs\/testimonials\/tom-perkins\/tom-perkins-288x288.jpg": {
+		"ft": 16384,
+		"iS": 27616,
+		"oA": 0,
+		"oAP": "\/thumbs\/testimonials\/tom-perkins\/tom-perkins-288x288.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

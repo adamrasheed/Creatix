@@ -12,7 +12,7 @@
 
 	<?php snippet('home/case-studies'); ?>
 
-    <!-- AV testimonial -->
+    <!-- Flexrake testimonial -->
     <?php $tst = $pages->find('testimonials/tom-perkins');?>
 
     <section class=" section-testimonial row">
@@ -23,12 +23,17 @@
             </div>
 
             <?php if($tst->image() != ''): ?>
+                <?php
+                    $tstImg    =    $tst->image()->resize(288);
+                    $tstLink   =    $tst->link();
+                    $tstTitle  =    $tst->title();
+                ?>
                 <?php if($tst->link() != ''): ?>
-                    <a href="<?= $tst->link() ?>" class="testimonial__client-link" target="_blank">
-                        <img src="<?= $tst->image()->url(); ?>" alt="" class="testimonial__image">
+                    <a href="<?= $tstLink ?>" class="testimonial__client-link" target="_blank">
+                        <img src="<?= $tstImg->url() ?>" alt="<?= $tstTitle ?>" class="testimonial__image">
                     </a>
                 <?php else: ?>
-                    <img src="<?= $tst->image()->url(); ?>" alt="" class="testimonial__image">
+                    <img src="<?= $tstImg->url() ?>" alt="<?= $tstTitle . $tst->company(); ?>" class="testimonial__image">
                 <?php endif; ?>
             <?php endif ?>
 
@@ -36,11 +41,11 @@
             <div class="testimonial__client">
 
                     <h5 class="testimonial__name">
-                        <?= $tst->title(); ?>
+                        <?= $tstTitle; ?>
                     </h5>
 
-                    <?php if($tst->link() != ''): ?>
-                        <a href="<?= $tst->link() ?>" class="testimonial__company testimonial__company--link" target="_blank" rel="noopener nofollow">
+                    <?php if($tstLink != ''): ?>
+                        <a href="<?= $tstLink ?>" class="testimonial__company testimonial__company--link" target="_blank" rel="noopener nofollow">
                                 <?= $tst->company(); ?>
                         </a>
                         <?php else: ?>

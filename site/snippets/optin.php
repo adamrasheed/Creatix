@@ -1,5 +1,5 @@
 <div class="optin <?php echo isset($article)? $article: ''; ?> <?php $class ?>">
-    <h3 class="optin__title center white">Learn the Top 10 Website Improvements to Get More Customers</h3>
+    <h2 class="optin__title center white">Learn the Top 10 Website Improvements to Get More Customers</h2>
     <h4 class="optin__subtitle center white">Free 5-Part Crash Course sent straight to your inbox.</h4>
     
     <script src="https://assets.convertkit.com/assets/CKJS4.js?v=21"></script>

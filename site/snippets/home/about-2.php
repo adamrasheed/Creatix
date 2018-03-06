@@ -6,5 +6,6 @@
         <p class="center">
             We help businesses like yours with custom websites designed around specific business goals.
         </p>
+        <p class="center"><i class="fa fa-chevron-down" style="font-size:"></i></p>
     </div>
 </div>

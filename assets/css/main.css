@@ -185,7 +185,7 @@ figcaption {
     margin-bottom: 0; }
   h3 {
     font-size: 1.125rem;
-    line-height: 1.25rem;
+    line-height: 1.5rem;
     margin-bottom: .25rem; }
   h4 {
     font-size: 1rem;
@@ -772,7 +772,7 @@ article img {
   text-decoration: none;
   line-height: 1;
   letter-spacing: .1em;
-  padding: .35rem 1.5rem .5rem;
+  padding: .45rem 1.5rem .5rem;
   max-width: max-content;
   margin: 0 auto 1rem;
   transform: translateY(-4px);
@@ -1215,7 +1215,8 @@ article img {
     margin-bottom: 0;
     padding: 1rem;
     bottom: 0;
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.73); }
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.73);
+    min-height: 4.5rem; }
   .post-preview__link {
     color: white;
     text-decoration: none;
@@ -1361,8 +1362,12 @@ section {
     margin-bottom: 1rem; }
   .widget__pointer {
     display: inline-block;
-    transform: translateY(-12px);
-    padding-left: .25rem; }
+    font-family: "Avenir", "GothamMedium", "Montserrat", sans-serif;
+    font-weight: 700;
+    font-variant-caps: all-small-caps;
+    transform: translateY(-13px);
+    padding-left: .25rem;
+    line-height: 1; }
   .widget__img {
     text-decoration: none; }
 
@@ -1397,7 +1402,7 @@ section {
   .widget {
     margin-bottom: 3rem; }
     .widget__title {
-      margin-bottom: 0.5rem; }
+      margin-bottom: .25rem; }
   .widget-about__title {
     font-size: 1.25rem; } }
 
@@ -1415,6 +1420,8 @@ section {
     font-size: 2rem;
     color: #333333;
     display: block; }
+    .header__hamburger-icon--hero {
+      color: white; }
   .header__menu-text {
     font-size: .75rem;
     line-height: 1; }
@@ -1502,9 +1509,11 @@ section {
   .hero__video {
     display: none; }
   .hero__headline {
-    margin: 0 0 1rem; }
+    margin: 0 0 0.75rem;
+    line-height: 1.25; }
   .hero__subheading {
-    margin: 0 0 1.5rem; }
+    margin: 0 0 1.5rem;
+    line-height: 1.5; }
   .hero svg #Logo-Black {
     fill: white; }
   .hero #hamburger, .hero #hamburger i {
@@ -1528,7 +1537,7 @@ section {
     .hero__cta {
       max-width: 29rem; }
     .hero__subheading {
-      margin: 0 0 2rem; }
+      margin: 0 0 1rem; }
     .hero__video-player {
       height: 18rem; }
     .hero__cta {
@@ -1595,8 +1604,7 @@ section {
   .home-service__title {
     margin-bottom: 1rem; }
   .home-service__cta {
-    margin-top: auto;
-    margin-bottom: 0;
+    margin: auto 0 0;
     width: 100%; }
   @media only screen and (min-width: 45rem) {
     .home-service {
@@ -1861,7 +1869,32 @@ section {
 
 @media only screen and (min-width: 45rem) {
   .roadmapping__cta-info {
-    margin-top: 3rem; } }
+    margin-top: 6rem;
+    margin-bottom: 5rem; } }
+
+.partnerships {
+  padding: 0 1rem; }
+  .partnerships .steve {
+    display: block;
+    max-width: 14rem;
+    margin: 0 auto 1rem;
+    float: none; }
+    @media only screen and (min-device-width: 45rem) {
+      .partnerships .steve {
+        float: left;
+        max-width: 12rem;
+        height: auto;
+        margin: 0 1rem 1rem 0; } }
+  .partnerships ul {
+    list-style-type: disc; }
+    .partnerships ul li {
+      padding: 0 0 0 1rem;
+      margin: 0 0 1rem; }
+  .partnerships hr {
+    width: 80%;
+    max-width: 14rem;
+    margin: 2.25rem auto 2rem;
+    clear: both; }
 
 .resource-type {
   margin: 0 0 4rem; }

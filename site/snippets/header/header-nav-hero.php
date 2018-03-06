@@ -7,7 +7,7 @@
         
         <!--Hamburger Icon-->
         <div id="hamburger" class="menuToggle header__hamburger header__hamburger--hero">
-            <i class="fa fa-bars header__hamburger-icon center"></i>
+            <i class="fa fal fa-bars header__hamburger-icon header__hamburger-icon--hero center"></i>
             <h5 class="header__menu-text center">Menu</h5>
         </div>
         

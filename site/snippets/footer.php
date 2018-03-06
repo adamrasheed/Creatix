@@ -52,8 +52,11 @@
 
   <!-- Scripts -->
 
+      <!-- Lodash -->
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.5/lodash.min.js"></script>
+  
   <!-- Custom JS -->
-  <?php echo js('assets/js/min/main-min.js') ?>
+  <?= js('assets/js/min/main-min.js', true) ?>
   
 </div><!-- end body wrapper -->
 </body>

@@ -1,6 +1,6 @@
 <section id="services" class="row section-services">
 
-    <h2 class="section-services__title">Services for Your Business</h2>
+    <h2 class="section__title section-services__title">Services for Your Business</h2>
 
     <?php foreach(page('services')->children() as $service): ?>
     <div class="home-service sml lrg--col-4" style="background: linear-gradient(hsla(0, 0%, 100%, 0.89),hsla(0, 0%, 80%, 0.89)),url('<?php echo $service->image()->url() ?>');">

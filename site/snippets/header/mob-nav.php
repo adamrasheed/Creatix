@@ -15,9 +15,27 @@
 
     <nav class="mob-nav mob-nav--bottom">
         <ul class="mob-nav__list">
-            <li class="mob-nav__item"><a href="http://bit.ly/crtxNCDomain" class="mob-nav__link" target="_blank">Web Domains</a></li>
-            <li class="mob-nav__item"><a href="http://bit.ly/creatixbluehost" class="mob-nav__link" target="_blank">Web Hosting</a></li>
-            <li class="mob-nav__item"><a href="<?= $pages->find('roadmapping-session')->url() ?>" class="mob-nav__link">Roadmapping Session</a></li>
+            <li class="mob-nav__item">
+                    <a href="http://bit.ly/crtxNCDomain" class="mob-nav__link" target="_blank">Web Domains</a>
+            </li>
+            <li class="mob-nav__item">
+                <a href="http://bit.ly/creatixbluehost" class="mob-nav__link" target="_blank">Web Hosting</a>
+            </li>
+
+            <?
+                $roadmapping = $pages->find('roadmapping-session');
+                $partnerships = $pages->find('partnerships');
+            ?>
+            <li class="mob-nav__item">
+                <a href="<?= $roadmapping->url() ?>" class="mob-nav__link">
+                    <?= $roadmapping->title(); ?>
+                </a>
+            </li>
+            <li class="mob-nav__item">
+                <a href="<?= $partnerships->url() ?>" class="mob-nav__link">
+                    <?= $partnerships->title(); ?>
+                </a>
+            </li>
         </ul>
     </nav>
     

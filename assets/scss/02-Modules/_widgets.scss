@@ -11,8 +11,12 @@
 
     &__pointer{
         display: inline-block;
-        transform: translateY(-12px);
+        font-family: $font-family-headings;
+        font-weight: $font-weight-bold;
+        font-variant-caps: all-small-caps;
+        transform: translateY(-13px);
         padding-left: .25rem;
+        line-height: 1;
     }
 
     &__img{
@@ -57,7 +61,7 @@
     .widget {
         margin-bottom: 3rem;
         &__title {
-            margin-bottom: 0.5rem;
+            margin-bottom: .25rem;
         }
     }
     .widget-about {
