@@ -1167,8 +1167,8 @@ article img {
   .breadcrumb__item {
     display: inline-block; }
     .breadcrumb__item:after {
-      content: '\f105';
-      font-family: 'FontAwesome';
+      content: '\f054';
+      font-family: 'Font Awesome 5 Regular';
       color: #333333;
       margin: 0 .25rem; }
     .breadcrumb__item:last-of-type a {

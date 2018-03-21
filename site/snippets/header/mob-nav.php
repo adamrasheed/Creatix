@@ -22,7 +22,7 @@
                 <a href="http://bit.ly/creatixbluehost" class="mob-nav__link" target="_blank">Web Hosting</a>
             </li>
 
-            <?
+            <?php
                 $roadmapping = $pages->find('roadmapping-session');
                 $partnerships = $pages->find('partnerships');
             ?>

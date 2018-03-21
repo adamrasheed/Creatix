@@ -48,6 +48,8 @@ const showBacktoTopBtn = () => {
     window.addEventListener('scroll', _.throttle(toggleBtn, 185));
 }
 
+// FontAwesome Config
+// FontAwesomeConfig = { searchPseudoElements: true };
 
 //  Doc Ready
 document.addEventListener("DOMContentLoaded", function () {
